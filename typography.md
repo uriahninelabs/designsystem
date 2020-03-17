@@ -37,11 +37,11 @@ When headings `h1`, `h2`, or `h3` are used at the top of a page or the beginning
 
 *Note: The Highlight Bar is not to be used with `h4`, `h5`, or `h6` level headings.*
 
-<div class="nl-highlight-bar"></div>
+<div class="highlight-bar"></div>
 <h2>This is the Title of a Content Section</h2>
 
 ```
-<div class="nl-highlight-bar"></div>
+<div class="highlight-bar"></div>
 <h2>This is a Title</h2>
 ```
 

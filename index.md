@@ -12,7 +12,7 @@ Brand and style guidelines for building Nine Labs digital products.
 
 ## Getting Started
 
-The entire system is based on [Twitter Bootstrap](https://getbootstrap.com/), and extends many of its core concepts.
+The entire system is based on [Twitter Bootstrap 4.4](https://getbootstrap.com/docs/4.4/getting-started/introduction/), and extends many of its core concepts.
 
 ----
 
