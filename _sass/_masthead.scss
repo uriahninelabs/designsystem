@@ -1,0 +1,21 @@
+.masthead {
+  padding: 3rem;
+  background-postion: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  .row {
+    background-color: rgba(255,255,255,.8);
+  }
+  .masthead-content {
+    padding: 3rem;
+    h1 {
+      font-size: 4rem;
+      font-weight: 800;
+      text-transform: uppercase;
+      letter-spacing: -1px;
+    }
+    p {
+      font-size: 1.5rem;
+    }
+  }
+}

@@ -1,0 +1,22 @@
+.client-bar {
+  @extend .container;
+  margin-top:3rem;
+  margin-bottom:3rem;
+  h6 {
+    font-weight: 600;
+    font-size: .85rem;
+    color: $gray-50;
+    text-transform: uppercase;
+  }
+  img {
+    max-width: 100px;
+    max-height: 90px;
+  }
+  hr {
+    margin: 0 auto;
+    width: 50%;
+    height: 1px;
+    background-color: $gray-30;
+    border: none;
+  }
+}
