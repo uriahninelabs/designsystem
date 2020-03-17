@@ -2,14 +2,15 @@
   @extend .container;
   margin-top: 5rem;
   margin-bottom: 5rem;
+
   .topic-image {
-    @extend .col-sm-6;
+    @extend .col;
     min-height: 10rem;
     background-size: cover;
     background-position: center;
   }
   .topic-content {
-    @extend .col-sm-6;
+    @extend .col;
     padding: 5rem;
   }
   .related-actions a {
@@ -17,5 +18,9 @@
     @extend .btn-sm;
     @extend .btn-outline-primary;
     margin-bottom: .5rem;
+  }
+
+  .row:nth-child(odd) .topic-content {
+      order: 1;
   }
 }

@@ -41,11 +41,16 @@ The Masthead is a full-width component used at the top of first-level pages. It 
 
 ## Topic Container
 
+This component is meant to be used to provide an overview of a service area or outcome. The text should be limited to about 90 words in no more than three paragraphs.
+
+
 {% include _component-topic-container.html %}
 
 ```
 {% include _component-topic-container.html %}
 ```
+
+
 
 ----
 

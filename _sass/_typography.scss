@@ -38,7 +38,10 @@ h6 {
   font-size: 18px;
 }
 
-.navbar .nav-item .nav-link {
+.btn,
+.navbar .nav-item .nav-link,
+.pagination .page-item, .page-link
+{
   font-family: "Fira Sans", helvetica, arial, sans-serif;
   font-style: normal;
   font-weight: 400;
@@ -49,10 +52,4 @@ a {
   &:hover {
     color: $pink-dark;
   }
-}
-
-.btn {
-  font-family: "Fira Sans", helvetica, arial, sans-serif;
-  font-style: normal;
-  font-weight: 400;
 }
