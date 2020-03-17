@@ -20,7 +20,7 @@
     margin-bottom: .5rem;
   }
 
-  .row:nth-child(2n) {
+  &:nth-child(2n) .row {
       flex-direction: row-reverse;
   }
 }
