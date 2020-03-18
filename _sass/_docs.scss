@@ -1,29 +1,36 @@
 // Colors
-.color-demo {
-  width: 100%;
-  min-height: 9rem;
-  margin-bottom: 1rem;
-  border-radius: 4px;
-}
 
-code {
-  @extend .bg-gray-10;
-  padding: 0.25rem 0.5rem;
-  color: #e51937;
-  display: inline-block;
-  border-radius: 4px;
-}
-
-hr {
-  margin-top: 5rem;
-  border: 0;
-  border-top: 1px solid $gray-20;
-}
-
-footer {
-  p {
-    margin: 0;
-    padding: 0;
-    font-size: 0.85rem;
+.nl-docs {
+  .color-demo {
+    width: 100%;
+    min-height: 9rem;
+    margin-bottom: 1rem;
+    border-radius: 4px;
   }
+
+  code {
+    @extend .bg-gray-5;
+    padding: 0.1rem 0.5rem;
+    color: #e51937;
+    display: inline-block;
+    border-radius: 4px;
+  }
+
+  hr {
+    margin-top: 5rem;
+    border: 0;
+    border-top: 1px solid $gray-20;
+  }
+
+  footer {
+    p {
+      margin: 0;
+      padding: 0;
+      font-size: 0.85rem;
+    }
+  }
+  .btn {
+    @extend .my-1;
+  }
+
 }
