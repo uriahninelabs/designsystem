@@ -1,5 +1,8 @@
 
 .article-list {
+  @extend .col-sm-12;
+  @extend .col-md-8;
+
   .article-preview {
     display: block;
     @extend .mb-5;
@@ -40,6 +43,31 @@
   }
 }
 
+.article-content {
+  @extend .col-sm-12;
+  @extend .col-md-8;
+
+  .article-text {
+    a {
+      text-decoration: underline;
+    }
+    p:first-of-type {
+      @extend .mb-4;
+      font-size: 1.5rem;
+    }
+    &::after {
+      content: "\02588";
+      font-size: .75rem;
+      color: $pink;
+    }
+  }
+}
+.article-meta {
+  @extend .mt-5;
+  @extend .py-2;
+  border-top: 1px solid $gray-20;
+}
+
 .pub-info {
   display: block;
   font-size: .85rem;
@@ -64,15 +92,56 @@
   p {
     font-size: .9rem;
   }
+  .newsletter-subscribe {
+    @extend .form-inline;
+    label {
+      @extend .sr-only;
+    }
+    input[type=text] {
+      @extend .form-control;
+      @extend .form-control-sm;
+      @extend .mr-sm-2;
+      @extend .w-100;
+      font-size: .75rem;
+    }
+    button {
+      @extend .btn;
+      @extend .btn-sm;
+      @extend .btn-tertiary;
+      font-size: .75rem;
+    }
+  }
 }
 
 .sidebar {
   @extend .col-sm-12;
   @extend .col-md-3;
+  @extend .offset-md-1;
+  @extend .mt-5;
+
+  .book-callout {
+    p {
+      margin-bottom: 0;
+      padding-bottom: .5rem;
+      font-size: .85rem;
+    }
+    a {
+      @extend .btn;
+      @extend .btn-sm;
+      @extend .btn-primary;
+    }
+    .subtle {
+      font-size: .65rem;
+      color: $gray-60;
+    }
+  }
 
   .sidebar-search {
     @extend .form-inline;
-    @extend .mb-3;
+    @extend .my-5;
+    padding: 2rem 0;
+    border-top: 1px solid $gray-10;
+    border-bottom: 1px solid $gray-10;
 
     label {
       @extend .sr-only;
@@ -108,13 +177,5 @@
       }
     }
   }
-  @include media-breakpoint-down(sm) {
-    margin-top: 5rem;
-    .sidebar-search {
-      padding: 2rem 0;
-      border-top: 1px solid $gray-10;
-      border-bottom: 1px solid $gray-10;
-    }
 
-  }
 }
