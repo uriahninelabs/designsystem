@@ -3,8 +3,11 @@ layout: docs
 title: The Nine Labs Design System
 ---
 
+<div class="docs-content">
 
-# The Nine Labs Design System
+# Guacamole
+
+#### The Nine Labs Design System
 
 Brand and style guidelines for building Nine Labs digital products.
 
@@ -31,3 +34,6 @@ The entire system is based on [Twitter Bootstrap 4.4](https://getbootstrap.com/d
 Explore the documentation for how we use our [Brand Logo](brand.html), our [Brand Colors](colors.html), [Typography](typography.html), and a limited set of [custom components](components.html) we use to build Nine Labs digital products.
 
 You can also explore a few [Example Pages](examples.html) to see how everything fits together.
+
+
+</div>

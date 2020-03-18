@@ -3,22 +3,24 @@ layout: docs
 title: Typography
 ---
 
+<div class="docs-content">
+
 # Typography
 
-Approved fonts for usage in Nine Labs digital products.
+Approved fonts and type styles for usage in Nine Labs digital products.
 
 ----
 
 ## Headings
 
-Headings use <a href="https://fonts.google.com/specimen/Fira+Sans">Fira Sans</a>.
+Headings use <a href="https://fonts.google.com/specimen/Fira+Sans">Fira Sans</a> and range from *72px* for `h1` to *18px* for `h6`. Note that the `h4` and `h5` headings are the same *font-size*, but different styles. The `h4` heading is set to uppercase using `text-transform: uppercase` and is set to be the Brand Pink color, while the `h5` heading follows the pattern and style from the other headings. This is so we can easily create the emphasis we want in various circumstances.
 
-# Heading 1
-## Heading 2
-### Heading 3
-#### Heading 4
-##### Heading 5
-###### Heading 6
+<h1>Heading 1</h1>
+<h2>Heading 2</h2>
+<h3>Heading 3</h3>
+<h4>Heading 4</h4>
+<h5>Heading 5</h5>
+<h6>Heading 6</h6>
 
 
 ```html
@@ -64,3 +66,10 @@ Every day is taco ipsum tuesday. Carne asada on corn tortillas. Give me all the 
 - Nachos
 - Chips &amp; Salsa
 - Guacamole!
+
+
+</div>
+<div class="docs-subnav">
+* this unordered seed list will be replaced by toc as unordered list
+{:toc}
+</div>

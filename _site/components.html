@@ -33,33 +33,35 @@
 
   <div class="container my-5">
     <div class="row">
-      <div class="col-9"><h1 id="components">Components</h1>
+      <div class="docs-content">
 
-<p>There are several components used in the Nine Labs website.</p>
+  <h1 id="components">Components</h1>
 
-<hr />
-<h3 id="buttons">Buttons</h3>
+  <p>There are several components used in the Nine Labs website.</p>
 
-<p>The <code class="highlighter-rouge">.btn</code> classes are designed to be used with the <code class="highlighter-rouge">&lt;button&gt;</code> element. However, you can also use these classes on <code class="highlighter-rouge">&lt;a&gt;</code> or <code class="highlighter-rouge">&lt;input&gt;</code> elements (though some browsers may apply a slightly different rendering).</p>
+  <hr />
+  <h3 id="buttons">Buttons</h3>
 
-<p>When using button classes on <code class="highlighter-rouge">&lt;a&gt;</code> elements that are used to trigger in-page functionality (like collapsing content), rather than linking to new pages or sections within the current page, these links should be given a <code class="highlighter-rouge">role="button"</code> to appropriately convey their purpose to assistive technologies such as screen readers. See <a href="https://getbootstrap.com/docs/4.4/components/buttons/">Bootstrap’s Button Docs</a> for more info.</p>
+  <p>The <code class="highlighter-rouge">.btn</code> classes are designed to be used with the <code class="highlighter-rouge">&lt;button&gt;</code> element. However, you can also use these classes on <code class="highlighter-rouge">&lt;a&gt;</code> or <code class="highlighter-rouge">&lt;input&gt;</code> elements (though some browsers may apply a slightly different rendering).</p>
 
-<h6 id="button-tags">Button tags</h6>
-<p><a class="btn btn-primary" href="#" role="button">Link</a>
+  <p>When using button classes on <code class="highlighter-rouge">&lt;a&gt;</code> elements that are used to trigger in-page functionality (like collapsing content), rather than linking to new pages or sections within the current page, these links should be given a <code class="highlighter-rouge">role="button"</code> to appropriately convey their purpose to assistive technologies such as screen readers. See <a href="https://getbootstrap.com/docs/4.4/components/buttons/">Bootstrap’s Button Docs</a> for more info.</p>
+
+  <h6 id="button-tags">Button tags</h6>
+  <p><a class="btn btn-primary" href="#" role="button">Link</a>
 <button class="btn btn-primary" type="submit">Button</button>
 <input class="btn btn-primary" type="button" value="Input" />
 <input class="btn btn-primary" type="submit" value="Submit" />
 <input class="btn btn-primary" type="reset" value="Reset" /></p>
 
-<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>&lt;a class="btn btn-primary" href="#" role="button"&gt;Link&lt;/a&gt;
+  <div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>&lt;a class="btn btn-primary" href="#" role="button"&gt;Link&lt;/a&gt;
 &lt;button class="btn btn-primary" type="submit"&gt;Button&lt;/button&gt;
 &lt;input class="btn btn-primary" type="button" value="Input"&gt;
 &lt;input class="btn btn-primary" type="submit" value="Submit"&gt;
 &lt;input class="btn btn-primary" type="reset" value="Reset"&gt;
-</code></pre></div></div>
+</code></pre></div>  </div>
 
-<h6 id="default-buttons">Default Buttons</h6>
-<p><button type="button" class="btn btn-primary">Primary</button>
+  <h6 id="default-buttons">Default Buttons</h6>
+  <p><button type="button" class="btn btn-primary">Primary</button>
 <button type="button" class="btn btn-secondary">Secondary</button>
 <button type="button" class="btn btn-tertiary">Tertiary</button>
 <button type="button" class="btn btn-success">Success</button>
@@ -70,7 +72,7 @@
 <button type="button" class="btn btn-dark">Dark</button>
 <button type="button" class="btn btn-link">Link</button></p>
 
-<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>&lt;button type="button" class="btn btn-primary"&gt;Primary&lt;/button&gt;
+  <div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>&lt;button type="button" class="btn btn-primary"&gt;Primary&lt;/button&gt;
 &lt;button type="button" class="btn btn-secondary"&gt;Secondary&lt;/button&gt;
 &lt;button type="button" class="btn btn-tertiary"&gt;Tertiary&lt;/button&gt;
 &lt;button type="button" class="btn btn-success"&gt;Success&lt;/button&gt;
@@ -80,11 +82,11 @@
 &lt;button type="button" class="btn btn-light"&gt;Light&lt;/button&gt;
 &lt;button type="button" class="btn btn-dark"&gt;Dark&lt;/button&gt;
 &lt;button type="button" class="btn btn-link"&gt;Link&lt;/button&gt;
-</code></pre></div></div>
+</code></pre></div>  </div>
 
-<h6 id="outline-buttons">Outline Buttons</h6>
+  <h6 id="outline-buttons">Outline Buttons</h6>
 
-<p><button type="button" class="btn btn-outline-primary">Primary</button>
+  <p><button type="button" class="btn btn-outline-primary">Primary</button>
 <button type="button" class="btn btn-outline-secondary">Secondary</button>
 <button type="button" class="btn btn-outline-tertiary">Tertiary</button>
 <button type="button" class="btn btn-outline-success">Success</button>
@@ -94,7 +96,7 @@
 <button type="button" class="btn btn-outline-light">Light</button>
 <button type="button" class="btn btn-outline-dark">Dark</button></p>
 
-<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>&lt;button type="button" class="btn btn-outline-primary"&gt;Primary&lt;/button&gt;
+  <div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>&lt;button type="button" class="btn btn-outline-primary"&gt;Primary&lt;/button&gt;
 &lt;button type="button" class="btn btn-outline-secondary"&gt;Secondary&lt;/button&gt;
 &lt;button type="button" class="btn btn-outline-tertiary"&gt;Tertiary&lt;/button&gt;
 &lt;button type="button" class="btn btn-outline-success"&gt;Success&lt;/button&gt;
@@ -103,30 +105,31 @@
 &lt;button type="button" class="btn btn-outline-info"&gt;Info&lt;/button&gt;
 &lt;button type="button" class="btn btn-outline-light"&gt;Light&lt;/button&gt;
 &lt;button type="button" class="btn btn-outline-dark"&gt;Dark&lt;/button&gt;
-</code></pre></div></div>
+</code></pre></div>  </div>
 
-<hr />
+  <hr />
 
-<h2 id="the-masthead">The Masthead</h2>
+  <h2 id="the-masthead">The Masthead</h2>
 
-<p>The Masthead is a full-width component used at the top of first-level pages. It includes a <code class="highlighter-rouge">H1</code> level Heading, a paragraph of text, and an optional Call-to-Action button.</p>
+  <p>The Masthead is a full-width component used at the top of first-level pages. It includes a <code class="highlighter-rouge">H1</code> level Heading, a paragraph of text, and an optional Call-to-Action button.</p>
 
-<div class="masthead" style="background-image:url(/assets/img/travel-user-experience-design.jpg)">
-  <div class="container">
-    <div class="row">
-      <div class="col">
-        <div class="masthead-content">
-          <div class="highlight-bar"></div>
-          <h1>Delivering Business Outcomes that Matter</h1>
-          <p>Are your teams delivering web and mobile experiences that delight your customers and maximize business value? Get the best thinking from startups and enterprises to give your projects the support they need to succeed.</p>
-          <a href="..." class="btn btn-primary">Find Out How</a>
-        </div>
-      </div>
+  <div class="masthead" style="background-image:url(/assets/img/travel-user-experience-design.jpg)">
+    <div class="container">
+      <div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>&lt;div class="row"&gt;
+  &lt;div class="col"&gt;
+    &lt;div class="masthead-content"&gt;
+      &lt;div class="highlight-bar"&gt;&lt;/div&gt;
+      &lt;h1&gt;Delivering Business Outcomes that Matter&lt;/h1&gt;
+      &lt;p&gt;Are your teams delivering web and mobile experiences that delight your customers and maximize business value? Get the best thinking from startups and enterprises to give your projects the support they need to succeed.&lt;/p&gt;
+      &lt;a href="..." class="btn btn-primary"&gt;Find Out How&lt;/a&gt;
+    &lt;/div&gt;
+  &lt;/div&gt;
+&lt;/div&gt;
+</code></pre></div>      </div>
     </div>
   </div>
-</div>
 
-<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>&lt;div class="masthead" style="background-image:url(/assets/img/travel-user-experience-design.jpg)"&gt;
+  <div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>&lt;div class="masthead" style="background-image:url(/assets/img/travel-user-experience-design.jpg)"&gt;
   &lt;div class="container"&gt;
     &lt;div class="row"&gt;
       &lt;div class="col"&gt;
@@ -141,30 +144,31 @@
   &lt;/div&gt;
 &lt;/div&gt;
 
-</code></pre></div></div>
+</code></pre></div>  </div>
 
-<hr />
+  <hr />
 
-<h2 id="the-client-bar">The Client Bar</h2>
+  <h2 id="the-client-bar">The Client Bar</h2>
 
-<div class="client-bar">
-  <div class="row">
-    <div class="col text-center">
-      <h6>Serving World-Class Organizations Like</h6>
-      <hr />
-      <img src="/assets/img/logos/delta-air-lines-150.png" class="img-fluid" />
-      <img src="/assets/img/logos/ihg-150.png" class="img-fluid" />
-      <img src="/assets/img/logos/ups-150.png" class="img-fluid" />
-      <img src="/assets/img/logos/circlek-150.png" class="img-fluid" />
-      <img src="/assets/img/logos/coca-cola-150.png" class="img-fluid" />
-      <img src="/assets/img/logos/state-of-georgia-150.png" class="img-fluid" />
-      <img src="/assets/img/logos/pirelli-150.png" class="img-fluid" />
-      <hr />
+  <div class="client-bar">
+    <div class="row">
+      <div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>&lt;div class="col text-center"&gt;
+  &lt;h6&gt;Serving World-Class Organizations Like&lt;/h6&gt;
+  &lt;hr /&gt;
+  &lt;img src="/assets/img/logos/delta-air-lines-150.png" class="img-fluid" /&gt;
+  &lt;img src="/assets/img/logos/ihg-150.png" class="img-fluid" /&gt;
+  &lt;img src="/assets/img/logos/ups-150.png" class="img-fluid" /&gt;
+  &lt;img src="/assets/img/logos/circlek-150.png" class="img-fluid" /&gt;
+  &lt;img src="/assets/img/logos/coca-cola-150.png" class="img-fluid" /&gt;
+  &lt;img src="/assets/img/logos/state-of-georgia-150.png" class="img-fluid" /&gt;
+  &lt;img src="/assets/img/logos/pirelli-150.png" class="img-fluid" /&gt;
+  &lt;hr /&gt;
+&lt;/div&gt;
+</code></pre></div>      </div>
     </div>
   </div>
-</div>
 
-<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>&lt;div class="client-bar"&gt;
+  <div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>&lt;div class="client-bar"&gt;
   &lt;div class="row"&gt;
     &lt;div class="col text-center"&gt;
       &lt;h6&gt;Serving World-Class Organizations Like&lt;/h6&gt;
@@ -181,54 +185,56 @@
   &lt;/div&gt;
 &lt;/div&gt;
 
-</code></pre></div></div>
-<hr />
+</code></pre></div>  </div>
+  <hr />
 
-<h2 id="testimonial">Testimonial</h2>
+  <h2 id="testimonial">Testimonial</h2>
 
-<div class="testimonial">
-  <blockquote>
-    <p>The value they bring to a project is immeasurable. They&rsquo;re always focused on asking the right question, digging into the core of the problem, and coming up with excellent strategic solutions.</p>
-    <cite class="align-right">Matt Malament - Director, Global Category Strategy at InterContinental Hotels Group</cite>
-  </blockquote>
-</div>
+  <div class="testimonial">
+    <blockquote>
+      <div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>&lt;p&gt;The value they bring to a project is immeasurable. They&amp;rsquo;re always focused on asking the right question, digging into the core of the problem, and coming up with excellent strategic solutions.&lt;/p&gt;
+&lt;cite class="align-right"&gt;Matt Malament - Director, Global Category Strategy at InterContinental Hotels Group&lt;/cite&gt;
+</code></pre></div>      </div>
+    </blockquote>
+  </div>
 
-<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>&lt;div class="testimonial"&gt;
+  <div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>&lt;div class="testimonial"&gt;
   &lt;blockquote&gt;
     &lt;p&gt;The value they bring to a project is immeasurable. They&amp;rsquo;re always focused on asking the right question, digging into the core of the problem, and coming up with excellent strategic solutions.&lt;/p&gt;
     &lt;cite class="align-right"&gt;Matt Malament - Director, Global Category Strategy at InterContinental Hotels Group&lt;/cite&gt;
   &lt;/blockquote&gt;
 &lt;/div&gt;
 
-</code></pre></div></div>
-<hr />
+</code></pre></div>  </div>
+  <hr />
 
-<h2 id="topic-container">Topic Container</h2>
+  <h2 id="topic-container">Topic Container</h2>
 
-<p>This component is meant to be used to provide an overview of a service area or outcome. The text should be limited to about 90 words in no more than three paragraphs. When multiple Topic Containers in a row, the image and text will alternate between the left and right side.</p>
+  <p>This component is meant to be used to provide an overview of a service area or outcome. The text should be limited to about 90 words in no more than three paragraphs. When multiple Topic Containers in a row, the image and text will alternate between the left and right side.</p>
 
-<div class="topic-container">
-  <div class="row">
-    <div class="topic-image" style="background-image: url(/assets/img/stock.jpg)"></div>
-    <div class="topic-content">
-      <div class="highlight-bar"></div>
-      <h2>Customer Insights</h2>
-      <h6>How well do you know your customers’ wants, needs, fears, and desires?</h6>
-      <p>These basic psychological forces drive every decision people make, including whether to use your products. Understanding them is critical to building web &amp; mobile apps people love to use.</p>
-      <p>User research is invaluable when you're planning to improve your products or simply gauge users' interest in new ideas before spending money on development. You know - measure twice, cut once.</p>
-      <p>Through a better understanding of your users we can help you improve existing products, generate new concepts, and spark innovation.</p>
-      <div class="related-actions">
-        <a href="">User Research</a>
-        <a href="">Empathy Mapping</a>
-        <a href="">User Journeys</a>
-        <a href="">User Task Outlines</a>
-        <a href="">Usability Testing</a>
-      </div>
+  <div class="topic-container">
+    <div class="row">
+      <div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>&lt;div class="topic-image" style="background-image: url(/assets/img/stock.jpg)"&gt;&lt;/div&gt;
+&lt;div class="topic-content"&gt;
+  &lt;div class="highlight-bar"&gt;&lt;/div&gt;
+  &lt;h2&gt;Customer Insights&lt;/h2&gt;
+  &lt;h6&gt;How well do you know your customers’ wants, needs, fears, and desires?&lt;/h6&gt;
+  &lt;p&gt;These basic psychological forces drive every decision people make, including whether to use your products. Understanding them is critical to building web &amp; mobile apps people love to use.&lt;/p&gt;
+  &lt;p&gt;User research is invaluable when you're planning to improve your products or simply gauge users' interest in new ideas before spending money on development. You know - measure twice, cut once.&lt;/p&gt;
+  &lt;p&gt;Through a better understanding of your users we can help you improve existing products, generate new concepts, and spark innovation.&lt;/p&gt;
+  &lt;div class="related-actions"&gt;
+    &lt;a href=""&gt;User Research&lt;/a&gt;
+    &lt;a href=""&gt;Empathy Mapping&lt;/a&gt;
+    &lt;a href=""&gt;User Journeys&lt;/a&gt;
+    &lt;a href=""&gt;User Task Outlines&lt;/a&gt;
+    &lt;a href=""&gt;Usability Testing&lt;/a&gt;
+  &lt;/div&gt;
+&lt;/div&gt;
+</code></pre></div>      </div>
     </div>
   </div>
-</div>
 
-<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>&lt;div class="topic-container"&gt;
+  <div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>&lt;div class="topic-container"&gt;
   &lt;div class="row"&gt;
     &lt;div class="topic-image" style="background-image: url(/assets/img/stock.jpg)"&gt;&lt;/div&gt;
     &lt;div class="topic-content"&gt;
@@ -249,67 +255,69 @@
   &lt;/div&gt;
 &lt;/div&gt;
 
-</code></pre></div></div>
+</code></pre></div>  </div>
 
-<hr />
+  <hr />
 
-<h2 id="global-footer">Global Footer</h2>
+  <h2 id="global-footer">Global Footer</h2>
 
-<footer>
-  <div class="container">
-    <div class="row">
-      <div class="info-group">
-        <h6>Services</h6>
-        <ul>
-          <li><a href="/services/#business-innovation">Business Innovation</a></li>
-          <li><a href="/services/#product-strategy">Product Strategy</a></li>
-          <li><a href="/services/#customer-insights">Customer Insights</a></li>
-          <li><a href="/services/#user-experience-design">User Experience Design</a></li>
-          <li><a href="/services/#product-prototyping">Product Prototyping</a></li>
-          <li><a href="/services/#user-interface-design">User Interface Design</a></li>
-          <li><a href="/services/#design-systems">Design Systems</a></li>
-        </ul>
-      </div>
-      <div class="info-group">
-        <h6>Outcomes</h6>
-        <ul>
-          <li><a href="/outcomes/#revenue">Increased Revenue</a></li>
-          <li><a href="/outcomes/#savings">Reduced Costs</a></li>
-          <li><a href="/outcomes/#satisfaction">Increased Satisfaction</a></li>
-          <li><a href="/outcomes/#process">Improved Processes</a></li>
-          <li><a href="/outcomes/#usability">Improved Usability</a></li>
-        </ul>
-      </div>
-      <div class="info-group">
-        <h6>Company</h6>
-        <ul>
-          <li><a href="/insights/">Latest Insights</a></li>
-          <li><a href="/process/">Our Process</a></li>
-          <li><a href="/about/">About Us</a></li>
-          <li><a href="/newsletter/">Newsletter</a></li>
-          <li><a href="/designdriven/">Podcast</a></li>
-          <li><a href="https://loopsbook.com">Book</a></li>
-        </ul>
-      </div>
-      <div class="info-group">
-        <h6>Offices</h6>
-        <p><strong>Atlanta</strong><br />1040 W. Marietta Street NW<br />Atlanta, GA 30318</p>
-        <p><strong>New York</strong><br />222 Broadway, 19th Floor<br />New York, NY 10038</p>
-        <p><strong>Amsterdam</strong><br />Weteringschans 165 C<br />1017 XD Amsterdam</p>
-      </div>
+  <footer>
+    <div class="container">
+      <div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>&lt;div class="row"&gt;
+  &lt;div class="info-group"&gt;
+    &lt;h6&gt;Services&lt;/h6&gt;
+    &lt;ul&gt;
+      &lt;li&gt;&lt;a href="/services/#business-innovation"&gt;Business Innovation&lt;/a&gt;&lt;/li&gt;
+      &lt;li&gt;&lt;a href="/services/#product-strategy"&gt;Product Strategy&lt;/a&gt;&lt;/li&gt;
+      &lt;li&gt;&lt;a href="/services/#customer-insights"&gt;Customer Insights&lt;/a&gt;&lt;/li&gt;
+      &lt;li&gt;&lt;a href="/services/#user-experience-design"&gt;User Experience Design&lt;/a&gt;&lt;/li&gt;
+      &lt;li&gt;&lt;a href="/services/#product-prototyping"&gt;Product Prototyping&lt;/a&gt;&lt;/li&gt;
+      &lt;li&gt;&lt;a href="/services/#user-interface-design"&gt;User Interface Design&lt;/a&gt;&lt;/li&gt;
+      &lt;li&gt;&lt;a href="/services/#design-systems"&gt;Design Systems&lt;/a&gt;&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/div&gt;
+  &lt;div class="info-group"&gt;
+    &lt;h6&gt;Outcomes&lt;/h6&gt;
+    &lt;ul&gt;
+      &lt;li&gt;&lt;a href="/outcomes/#revenue"&gt;Increased Revenue&lt;/a&gt;&lt;/li&gt;
+      &lt;li&gt;&lt;a href="/outcomes/#savings"&gt;Reduced Costs&lt;/a&gt;&lt;/li&gt;
+      &lt;li&gt;&lt;a href="/outcomes/#satisfaction"&gt;Increased Satisfaction&lt;/a&gt;&lt;/li&gt;
+      &lt;li&gt;&lt;a href="/outcomes/#process"&gt;Improved Processes&lt;/a&gt;&lt;/li&gt;
+      &lt;li&gt;&lt;a href="/outcomes/#usability"&gt;Improved Usability&lt;/a&gt;&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/div&gt;
+  &lt;div class="info-group"&gt;
+    &lt;h6&gt;Company&lt;/h6&gt;
+    &lt;ul&gt;
+      &lt;li&gt;&lt;a href="/insights/"&gt;Latest Insights&lt;/a&gt;&lt;/li&gt;
+      &lt;li&gt;&lt;a href="/process/"&gt;Our Process&lt;/a&gt;&lt;/li&gt;
+      &lt;li&gt;&lt;a href="/about/"&gt;About Us&lt;/a&gt;&lt;/li&gt;
+      &lt;li&gt;&lt;a href="/newsletter/"&gt;Newsletter&lt;/a&gt;&lt;/li&gt;
+      &lt;li&gt;&lt;a href="/designdriven/"&gt;Podcast&lt;/a&gt;&lt;/li&gt;
+      &lt;li&gt;&lt;a href="https://loopsbook.com"&gt;Book&lt;/a&gt;&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/div&gt;
+  &lt;div class="info-group"&gt;
+    &lt;h6&gt;Offices&lt;/h6&gt;
+    &lt;p&gt;&lt;strong&gt;Atlanta&lt;/strong&gt;&lt;br&gt;1040 W. Marietta Street NW&lt;br&gt;Atlanta, GA 30318&lt;/p&gt;
+    &lt;p&gt;&lt;strong&gt;New York&lt;/strong&gt;&lt;br&gt;222 Broadway, 19th Floor&lt;br&gt;New York, NY 10038&lt;/p&gt;
+    &lt;p&gt;&lt;strong&gt;Amsterdam&lt;/strong&gt;&lt;br&gt;Weteringschans 165 C&lt;br&gt;1017 XD Amsterdam&lt;/p&gt;
+  &lt;/div&gt;
+&lt;/div&gt;
+</code></pre></div>      </div>
     </div>
-  </div>
-  <div class="subfooter">
-    <p>&copy; Novelaboratori, LLC unless otherwise noted // <a href="">Privacy Policy</a></p>
-    <div class="social-stack">
-      <a href="https://www.twitter.com/ninelabs" class="fa-stack icon-twitter" target="_blank"><span class="sr-only">Twitter</span><i class="fab fa-twitter mono fa-stack-1x fa-inverse"></i></a>
-      <a href="https://www.linkedin.com/company/nine-labs/" class="fa-stack icon-linkedin" target="_blank"><span class="sr-only">Linkedin</span><i class="fab fa-linkedin mono fa-stack-1x fa-inverse"></i></a>
-      <a href="https://www.instagram.com/ninelabs" class="fa-stack icon-instagram" target="_blank"><span class="sr-only">Instagram</span><i class="fab fa-instagram mono fa-stack-1x fa-inverse"></i></a>
+    <div class="subfooter">
+      <div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>&lt;p&gt;&amp;copy; Novelaboratori, LLC unless otherwise noted // &lt;a href=""&gt;Privacy Policy&lt;/a&gt;&lt;/p&gt;
+&lt;div class="social-stack"&gt;
+  &lt;a href="https://www.twitter.com/ninelabs" class="fa-stack icon-twitter" target="_blank"&gt;&lt;span class="sr-only"&gt;Twitter&lt;/span&gt;&lt;i class="fab fa-twitter mono fa-stack-1x fa-inverse"&gt;&lt;/i&gt;&lt;/a&gt;
+  &lt;a href="https://www.linkedin.com/company/nine-labs/" class="fa-stack icon-linkedin" target="_blank"&gt;&lt;span class="sr-only"&gt;Linkedin&lt;/span&gt;&lt;i class="fab fa-linkedin mono fa-stack-1x fa-inverse"&gt;&lt;/i&gt;&lt;/a&gt;
+  &lt;a href="https://www.instagram.com/ninelabs" class="fa-stack icon-instagram" target="_blank"&gt;&lt;span class="sr-only"&gt;Instagram&lt;/span&gt;&lt;i class="fab fa-instagram mono fa-stack-1x fa-inverse"&gt;&lt;/i&gt;&lt;/a&gt;
+&lt;/div&gt;
+</code></pre></div>      </div>
     </div>
-  </div>
-</footer>
+  </footer>
 
-<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>&lt;footer&gt;
+  <div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>&lt;footer&gt;
   &lt;div class="container"&gt;
     &lt;div class="row"&gt;
       &lt;div class="info-group"&gt;
@@ -363,11 +371,26 @@
   &lt;/div&gt;
 &lt;/footer&gt;
 
-</code></pre></div></div>
+</code></pre></div>  </div>
+
 </div>
-      <div class="col-3">
-        
-      </div>
+<div class="docs-subnav">
+<ul id="markdown-toc">
+  <li><a href="#buttons" id="markdown-toc-buttons">Buttons</a>    <ul>
+      <li><a href="#button-tags" id="markdown-toc-button-tags">Button tags</a></li>
+      <li><a href="#default-buttons" id="markdown-toc-default-buttons">Default Buttons</a></li>
+      <li><a href="#outline-buttons" id="markdown-toc-outline-buttons">Outline Buttons</a></li>
+    </ul>
+  </li>
+  <li><a href="#the-masthead" id="markdown-toc-the-masthead">The Masthead</a></li>
+  <li><a href="#the-client-bar" id="markdown-toc-the-client-bar">The Client Bar</a></li>
+  <li><a href="#testimonial" id="markdown-toc-testimonial">Testimonial</a></li>
+  <li><a href="#topic-container" id="markdown-toc-topic-container">Topic Container</a></li>
+  <li><a href="#global-footer" id="markdown-toc-global-footer">Global Footer</a></li>
+</ul>
+
+</div>
+
     </div>
   </div>
 

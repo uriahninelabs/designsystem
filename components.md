@@ -2,6 +2,7 @@
 layout: docs
 title: Components
 ---
+<div class="docs-content">
 
 # Components
 
@@ -131,3 +132,9 @@ This component is meant to be used to provide an overview of a service area or o
 ```
 {% include _component-footer.html %}
 ```
+
+</div>
+<div class="docs-subnav">
+* this unordered seed list will be replaced by toc as unordered list
+{:toc}
+</div>

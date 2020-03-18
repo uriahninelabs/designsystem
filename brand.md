@@ -3,6 +3,8 @@ layout: docs
 title: Brand
 ---
 
+<div class="docs-content">
+
 # Brand Logos
 
 The Nine Labs logo has two colors: [Primary Pink](../colors.html) and [Dark Pink](../colors.html). The "N" Solo Mark is the primary visual mark for most uses. These elements and their relationship must never be altered or modified in any way.
@@ -37,3 +39,11 @@ Only the logos provided within this document are approved for use.
 ![Horizontal Distortion](/assets/img/brand-logo-distortion-horizontal.svg "Horizontal Distortion")
 
 ![Vertical Distortion](/assets/img/brand-logo-distortion.svg "Vertical Distortion")
+
+
+
+</div>
+<div class="docs-subnav">
+* this unordered seed list will be replaced by toc as unordered list
+{:toc}
+</div>
