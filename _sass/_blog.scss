@@ -27,12 +27,23 @@
     }
   }
 }
+
+.article-masthead {
+  @extend .container;
+
+  h1 {
+    line-height: 1.15;
+    @include media-breakpoint-down(md) {
+      font-size:2.5rem;
+    }
+  }
+}
+
 .pub-info {
   display: block;
   font-size: .85rem;
   color: $gray-50;
 }
-
 
 .article-image {
   @extend .mb-5;

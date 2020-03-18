@@ -1,26 +1,35 @@
 .topic-container {
   @extend .container;
-  margin-top: 5rem;
-  margin-bottom: 5rem;
+  @extend .my-5;
+
+  .topic-image, .topic-content {
+    @extend .col-sm-12;
+    @extend .col-lg-6;
+  }
 
   .topic-image {
-    @extend .col;
     min-height: 10rem;
     background-size: cover;
     background-position: center;
   }
   .topic-content {
-    @extend .col;
-    padding: 5rem;
+    padding-top: 2.5rem;
+    padding-bottom: 2.5rem;
+    
+    @include media-breakpoint-up(lg) {
+      padding: 5rem;
+    }
   }
   .related-actions a {
     @extend .btn;
     @extend .btn-sm;
     @extend .btn-outline-primary;
-    margin-bottom: .5rem;
+    margin-bottom: .25rem;
   }
 
-  &:nth-child(2n) .row {
-      flex-direction: row-reverse;
+  @include media-breakpoint-up(md) {
+    &:nth-child(2n) .row {
+        flex-direction: row-reverse;
+    }
   }
 }
