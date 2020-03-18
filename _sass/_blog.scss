@@ -30,6 +30,7 @@
 
 .article-masthead {
   @extend .container;
+  @extend .mt-5;
 
   h1 {
     line-height: 1.15;
@@ -66,6 +67,31 @@
 }
 
 .sidebar {
+  @extend .col-sm-12;
+  @extend .col-md-3;
+
+  .sidebar-search {
+    @extend .form-inline;
+    @extend .mb-3;
+
+    label {
+      @extend .sr-only;
+    }
+    input[type=text] {
+      @extend .form-control;
+      @extend .form-control-sm;
+      @extend .mr-sm-2;
+      @extend .w-100;
+      font-size: .75rem;
+    }
+    button {
+      @extend .btn;
+      @extend .btn-sm;
+      @extend .btn-outline-secondary;
+      font-size: .75rem;
+    }
+  }
+
   ul {
     margin-bottom: 2rem;
     padding-left: 1rem;
@@ -73,6 +99,22 @@
       margin: .25rem 0;
       padding: 0;
       font-size: .85rem;
+      a {
+        color: $gray-90;
+        &:hover {
+          color: $pink-dark;
+          text-decoration: underline;
+        }
+      }
     }
+  }
+  @include media-breakpoint-down(sm) {
+    margin-top: 5rem;
+    .sidebar-search {
+      padding: 2rem 0;
+      border-top: 1px solid $gray-10;
+      border-bottom: 1px solid $gray-10;
+    }
+
   }
 }
