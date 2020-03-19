@@ -3,7 +3,7 @@ layout: docs
 title: Brand
 ---
 
-<div class="docs-content">
+
 
 # Brand Logos
 
@@ -42,8 +42,4 @@ Only the logos provided within this document are approved for use.
 
 
 
-</div>
-<div class="docs-subnav">
-* this unordered seed list will be replaced by toc as unordered list
-{:toc}
 </div>

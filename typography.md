@@ -3,8 +3,6 @@ layout: docs
 title: Typography
 ---
 
-<div class="docs-content">
-
 # Typography
 
 Approved fonts and type styles for usage in Nine Labs digital products.
@@ -33,7 +31,7 @@ Headings use <a href="https://fonts.google.com/specimen/Fira+Sans">Fira Sans</a>
 ```
 ----
 
-##### The Highlight Bar
+### The Highlight Bar
 
 When headings `h1`, `h2`, or `h3` are used at the top of a page or the beginning of a new section of content you should include the Highlight Bar above the `hx` element. The bar automatically resizes to 18% of the heading's container width, with a minimum width of 90px.
 
@@ -42,7 +40,7 @@ When headings `h1`, `h2`, or `h3` are used at the top of a page or the beginning
 <div class="highlight-bar"></div>
 <h2>This is the Title of a Content Section</h2>
 
-```
+```html
 <div class="highlight-bar"></div>
 <h2>This is a Title</h2>
 ```
@@ -54,22 +52,15 @@ When headings `h1`, `h2`, or `h3` are used at the top of a page or the beginning
 All other text is set in <a href="https://fonts.google.com/specimen/Merriweather">Merriweather</a> at *18px* with a `line-height` of *1.5rem*.
 
 ----
-#### Paragraphs
+### Paragraphs
 
 Every day is taco ipsum tuesday. Carne asada on corn tortillas. Give me all the tacos, immediately. Flour or corn tortillas? Shrimp tacos are tasty tacos! BARBACOA!! It’s a wonderful morning for breakfast tacos. Can you put some peppers and onions on that? Josh’s taco shack is the best taco shack. CARNE ASADA!! Um, Tabasco? No thanks, do you have any Cholula? How bout a gosh darn quesadilla? It’s taco Tuesday Monday. Josh’s taco shack is the best taco shack. Does guac cost extra? Pico de gallo, on the side please
 
 ----
-#### Lists
+### Lists
 
 - Tacos
 - Burritos
 - Nachos
 - Chips &amp; Salsa
 - Guacamole!
-
-
-</div>
-<div class="docs-subnav">
-* this unordered seed list will be replaced by toc as unordered list
-{:toc}
-</div>

@@ -33,7 +33,12 @@
 
   <div class="container my-5">
     <div class="row">
-      {{ content }}
+      <div class="docs-content">
+        {{ content }}
+      </div>
+      <div class="docs-subnav">
+       {% include _docs-subnav.html html=content h_min=2 %}
+      </div>
     </div>
   </div>
 

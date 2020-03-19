@@ -2,27 +2,26 @@
 layout: docs
 title: Components
 ---
-<div class="docs-content">
 
 # Components
 
 There are several components used in the Nine Labs website.
 
 ----
-### Buttons
+## Buttons
 
 The `.btn` classes are designed to be used with the `<button>` element. However, you can also use these classes on `<a>` or `<input>` elements (though some browsers may apply a slightly different rendering).
 
 When using button classes on `<a>` elements that are used to trigger in-page functionality (like collapsing content), rather than linking to new pages or sections within the current page, these links should be given a `role="button"` to appropriately convey their purpose to assistive technologies such as screen readers. See [Bootstrap&rsquo;s Button Docs](https://getbootstrap.com/docs/4.4/components/buttons/) for more info.
 
-###### Button tags
+### Button tags
 <a class="btn btn-primary" href="#" role="button">Link</a>
 <button class="btn btn-primary" type="submit">Button</button>
 <input class="btn btn-primary" type="button" value="Input">
 <input class="btn btn-primary" type="submit" value="Submit">
 <input class="btn btn-primary" type="reset" value="Reset">
 
-```
+```html
 <a class="btn btn-primary" href="#" role="button">Link</a>
 <button class="btn btn-primary" type="submit">Button</button>
 <input class="btn btn-primary" type="button" value="Input">
@@ -31,7 +30,7 @@ When using button classes on `<a>` elements that are used to trigger in-page fun
 ```
 
 
-###### Default Buttons
+### Default Buttons
 <button type="button" class="btn btn-primary">Primary</button>
 <button type="button" class="btn btn-secondary">Secondary</button>
 <button type="button" class="btn btn-tertiary">Tertiary</button>
@@ -43,7 +42,7 @@ When using button classes on `<a>` elements that are used to trigger in-page fun
 <button type="button" class="btn btn-dark">Dark</button>
 <button type="button" class="btn btn-link">Link</button>
 
-```
+```html
 <button type="button" class="btn btn-primary">Primary</button>
 <button type="button" class="btn btn-secondary">Secondary</button>
 <button type="button" class="btn btn-tertiary">Tertiary</button>
@@ -56,7 +55,7 @@ When using button classes on `<a>` elements that are used to trigger in-page fun
 <button type="button" class="btn btn-link">Link</button>
 ```
 
-###### Outline Buttons
+### Outline Buttons
 
 <button type="button" class="btn btn-outline-primary">Primary</button>
 <button type="button" class="btn btn-outline-secondary">Secondary</button>
@@ -68,7 +67,7 @@ When using button classes on `<a>` elements that are used to trigger in-page fun
 <button type="button" class="btn btn-outline-light">Light</button>
 <button type="button" class="btn btn-outline-dark">Dark</button>
 
-```
+```html
 <button type="button" class="btn btn-outline-primary">Primary</button>
 <button type="button" class="btn btn-outline-secondary">Secondary</button>
 <button type="button" class="btn btn-outline-tertiary">Tertiary</button>
@@ -88,7 +87,7 @@ The Masthead is a full-width component used at the top of first-level pages. It 
 
 {% include _component-masthead.html %}
 
-```
+```html
 {% include _component-masthead.html %}
 ```
 
@@ -98,7 +97,7 @@ The Masthead is a full-width component used at the top of first-level pages. It 
 
 {% include _component-client-bar.html %}
 
-```
+```html
 {% include _component-client-bar.html %}
 ```
 ----
@@ -107,7 +106,7 @@ The Masthead is a full-width component used at the top of first-level pages. It 
 
 {% include _component-testimonial.html %}
 
-```
+```html
 {% include _component-testimonial.html %}
 ```
 ----
@@ -119,7 +118,7 @@ This component is meant to be used to provide an overview of a service area or o
 
 {% include _component-topic-container.html %}
 
-```
+```html
 {% include _component-topic-container.html %}
 ```
 
@@ -129,12 +128,6 @@ This component is meant to be used to provide an overview of a service area or o
 
 {% include _component-footer.html %}
 
-```
+```html
 {% include _component-footer.html %}
 ```
-
-</div>
-<div class="docs-subnav">
-* this unordered seed list will be replaced by toc as unordered list
-{:toc}
-</div>

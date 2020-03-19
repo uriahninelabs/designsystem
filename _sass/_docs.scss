@@ -4,9 +4,15 @@
 
   .docs-content {
     @extend .col-9;
+    &>hr {
+      margin-top: 5rem;
+      border: 0;
+      border-top: 1px solid $gray-20;
+    }
   }
   .docs-subnav {
     @extend .col-3;
+    @extend .sticky-top;
   }
 
   .color-demo {
@@ -24,12 +30,6 @@
     color: #e51937;
     display: inline-block;
     border-radius: 4px;
-  }
-
-  hr {
-    margin-top: 5rem;
-    border: 0;
-    border-top: 1px solid $gray-20;
   }
 
   footer {
