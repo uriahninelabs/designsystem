@@ -11,7 +11,7 @@ The entire front-end system is based on [Twitter Bootstrap 4.4](https://getboots
 <link rel="stylesheet" href="//designsystem.ninelabs.com/assets/style.css" crossorigin="anonymous">
 ```
 
-# Development & Running Locally
+## Development & Running Locally
 
 The system is built using [Jekyll](https://jekyllrb.com/) and hosted here on Github Pages.
 
