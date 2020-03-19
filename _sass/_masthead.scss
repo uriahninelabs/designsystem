@@ -14,6 +14,10 @@
     @include media-breakpoint-up(md) {
       padding: 3rem;
     }
+    .pre-text {
+      color: $pink;
+    }
+
     h1 {
       font-size: 4rem;
       font-weight: 800;
@@ -24,14 +28,17 @@
         font-size: 2rem;
       }
     }
+    
+    a {
+      @extend .btn;
+      @extend .btn-primary;
+    }
 
     @include media-breakpoint-up(md) {
       p {
         font-size: 1.5rem;
       }
     }
-    .pre-text {
-      color: $pink;
-    }
+
   }
 }
