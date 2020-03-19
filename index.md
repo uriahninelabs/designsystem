@@ -5,19 +5,19 @@ title: The Nine Labs Design System
 
 # Guacamole
 
-#### The Nine Labs Design System
+<h4>The Nine Labs Design System</h4>
 
 Brand and style guidelines for building Nine Labs digital products.
 
 ----
 
-## Getting Started
+### Getting Started
 
 The entire system is based on [Twitter Bootstrap 4.4](https://getbootstrap.com/docs/4.4/getting-started/introduction/), and extends many of its core concepts.
 
 ----
 
-##### CSS only
+### CSS only
 
 ```
 <link rel="stylesheet" href="//designsystem.ninelabs.com/assets/style.css" crossorigin="anonymous">
@@ -27,7 +27,7 @@ The entire system is based on [Twitter Bootstrap 4.4](https://getbootstrap.com/d
 
 ----
 
-##### Content and Components
+### Content and Components
 
 Explore the documentation for how we use our [Brand Logo](brand.html), our [Brand Colors](colors.html), [Typography](typography.html), and a limited set of [custom components](components.html) we use to build Nine Labs digital products.
 
