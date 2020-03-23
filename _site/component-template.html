@@ -1,0 +1,239 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <script src="https://kit.fontawesome.com/8c3f464d84.js" crossorigin="anonymous"></script>
+  <link rel="stylesheet" href="/assets/docs.css">
+  <title>Content Sections // Components - Nine Labs Design System</title>
+</head>
+
+<body class="nl-docs">
+
+  <header>
+    <nav class="navbar navbar-expand-lg navbar-light">
+      <div class="container">
+        <a class="navbar-brand" href="/"><img src="/assets/img/ninelabs-logo-pink.png" height="36px"></a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav mr-auto">
+            <li class="nav-item"><a href="/brand.html" class="nav-link">Brand</a></li>
+            <li class="nav-item"><a href="/colors.html" class="nav-link">Colors</a></li>
+            <li class="nav-item"><a href="/typography.html" class="nav-link">Typography</a></li>
+            <li class="nav-item dropdown"><a href="#" class="nav-link dropdown-toggle" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Components</a>
+              <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                <a class="dropdown-item" href="component-template.html">Header &amp; Footer</a>
+                <a class="dropdown-item" href="component-masthead.html">Mastheads</a>
+                <a class="dropdown-item" href="component-content.html">Content Sections</a>
+                <a class="dropdown-item" href="component-buttons.html">Buttons</a>
+                <a class="dropdown-item" href="component-bling.html">Bling</a>
+              </div>
+            </li>
+            <li class="nav-item"><a href="/examples.html" class="nav-link">Examples</a></li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+  </header>
+
+  <div class="container my-5">
+    <div class="row">
+      <div class="docs-content">
+        <h1 id="page-template">Page Template</h1>
+
+<p>As the names imply, the Global Header and Global Footer are used by default on every page.</p>
+
+<h2 id="global-header">Global Header</h2>
+
+<p>The Global Header is based on the <a href="">Bootstrap Navbar</a> contains the logo, links to the major pages and content sections, and a button-style link for the contact page.</p>
+
+<header>
+  <nav class="navbar navbar-expand-lg navbar-light bg-white">
+    <div class="container">
+      <a class="navbar-brand" href="/"><img src="/assets/img/ninelabs-logo-pink.png" height="36px" /></a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav mr-auto">
+          <li class="nav-item"><a href="/services/" class="nav-link">Services</a></li>
+          <li class="nav-item"><a href="/process/" class="nav-link">Process</a></li>
+          <li class="nav-item"><a href="/outcomes/" class="nav-link">Outcomes</a></li>
+          <li class="nav-item"><a href="/insights/" class="nav-link">Insights</a></li>
+          <li class="nav-item"><a href="/clients/" class="nav-link">About You</a></li>
+        </ul>
+        <a href="/connect/" class="btn btn-sm btn-primary" type="button">Let&rsquo;s Talk</a>
+      </div>
+    </div>
+  </nav>
+</header>
+
+<div class="language-html highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nt">&lt;header&gt;</span>
+  <span class="nt">&lt;nav</span> <span class="na">class=</span><span class="s">"navbar navbar-expand-lg navbar-light bg-white"</span><span class="nt">&gt;</span>
+    <span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">"container"</span><span class="nt">&gt;</span>
+      <span class="nt">&lt;a</span> <span class="na">class=</span><span class="s">"navbar-brand"</span> <span class="na">href=</span><span class="s">"/"</span><span class="nt">&gt;&lt;img</span> <span class="na">src=</span><span class="s">"/assets/img/ninelabs-logo-pink.png"</span> <span class="na">height=</span><span class="s">"36px"</span><span class="nt">&gt;&lt;/a&gt;</span>
+      <span class="nt">&lt;button</span> <span class="na">class=</span><span class="s">"navbar-toggler"</span> <span class="na">type=</span><span class="s">"button"</span> <span class="na">data-toggle=</span><span class="s">"collapse"</span> <span class="na">data-target=</span><span class="s">"#navbarSupportedContent"</span> <span class="na">aria-controls=</span><span class="s">"navbarSupportedContent"</span> <span class="na">aria-expanded=</span><span class="s">"false"</span> <span class="na">aria-label=</span><span class="s">"Toggle navigation"</span><span class="nt">&gt;</span>
+        <span class="nt">&lt;span</span> <span class="na">class=</span><span class="s">"navbar-toggler-icon"</span><span class="nt">&gt;&lt;/span&gt;</span>
+      <span class="nt">&lt;/button&gt;</span>
+      <span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">"collapse navbar-collapse"</span> <span class="na">id=</span><span class="s">"navbarSupportedContent"</span><span class="nt">&gt;</span>
+        <span class="nt">&lt;ul</span> <span class="na">class=</span><span class="s">"navbar-nav mr-auto"</span><span class="nt">&gt;</span>
+          <span class="nt">&lt;li</span> <span class="na">class=</span><span class="s">"nav-item"</span><span class="nt">&gt;&lt;a</span> <span class="na">href=</span><span class="s">"/services/"</span> <span class="na">class=</span><span class="s">"nav-link"</span><span class="nt">&gt;</span>Services<span class="nt">&lt;/a&gt;&lt;/li&gt;</span>
+          <span class="nt">&lt;li</span> <span class="na">class=</span><span class="s">"nav-item"</span><span class="nt">&gt;&lt;a</span> <span class="na">href=</span><span class="s">"/process/"</span> <span class="na">class=</span><span class="s">"nav-link"</span><span class="nt">&gt;</span>Process<span class="nt">&lt;/a&gt;&lt;/li&gt;</span>
+          <span class="nt">&lt;li</span> <span class="na">class=</span><span class="s">"nav-item"</span><span class="nt">&gt;&lt;a</span> <span class="na">href=</span><span class="s">"/outcomes/"</span> <span class="na">class=</span><span class="s">"nav-link"</span><span class="nt">&gt;</span>Outcomes<span class="nt">&lt;/a&gt;&lt;/li&gt;</span>
+          <span class="nt">&lt;li</span> <span class="na">class=</span><span class="s">"nav-item"</span><span class="nt">&gt;&lt;a</span> <span class="na">href=</span><span class="s">"/insights/"</span> <span class="na">class=</span><span class="s">"nav-link"</span><span class="nt">&gt;</span>Insights<span class="nt">&lt;/a&gt;&lt;/li&gt;</span>
+          <span class="nt">&lt;li</span> <span class="na">class=</span><span class="s">"nav-item"</span><span class="nt">&gt;&lt;a</span> <span class="na">href=</span><span class="s">"/clients/"</span> <span class="na">class=</span><span class="s">"nav-link"</span><span class="nt">&gt;</span>About You<span class="nt">&lt;/a&gt;&lt;/li&gt;</span>
+        <span class="nt">&lt;/ul&gt;</span>
+        <span class="nt">&lt;a</span> <span class="na">href=</span><span class="s">"/connect/"</span> <span class="na">class=</span><span class="s">"btn btn-sm btn-primary"</span> <span class="na">type=</span><span class="s">"button"</span><span class="nt">&gt;</span>Let<span class="ni">&amp;rsquo;</span>s Talk<span class="nt">&lt;/a&gt;</span>
+      <span class="nt">&lt;/div&gt;</span>
+    <span class="nt">&lt;/div&gt;</span>
+  <span class="nt">&lt;/nav&gt;</span>
+<span class="nt">&lt;/header&gt;</span>
+
+</code></pre></div></div>
+
+<hr />
+
+<h2 id="global-footer">Global Footer</h2>
+
+<p>The Global Footer is a four column spread containing links to all the major pages and content sections of the website. It also includes office addresses and contact information.</p>
+
+<footer>
+  <div class="container">
+    <div class="row">
+      <div class="info-group">
+        <h6>Services</h6>
+        <ul>
+          <li><a href="/services/#business-innovation">Business Innovation</a></li>
+          <li><a href="/services/#product-strategy">Product Strategy</a></li>
+          <li><a href="/services/#customer-insights">Customer Insights</a></li>
+          <li><a href="/services/#user-experience-design">User Experience Design</a></li>
+          <li><a href="/services/#product-prototyping">Product Prototyping</a></li>
+          <li><a href="/services/#user-interface-design">User Interface Design</a></li>
+          <li><a href="/services/#design-systems">Design Systems</a></li>
+        </ul>
+      </div>
+      <div class="info-group">
+        <h6>Outcomes</h6>
+        <ul>
+          <li><a href="/outcomes/#revenue">Increased Revenue</a></li>
+          <li><a href="/outcomes/#savings">Reduced Costs</a></li>
+          <li><a href="/outcomes/#satisfaction">Increased Satisfaction</a></li>
+          <li><a href="/outcomes/#process">Improved Processes</a></li>
+          <li><a href="/outcomes/#usability">Improved Usability</a></li>
+        </ul>
+      </div>
+      <div class="info-group">
+        <h6>Company</h6>
+        <ul>
+          <li><a href="/insights/">Latest Insights</a></li>
+          <li><a href="/process/">Our Process</a></li>
+          <li><a href="/about/">About Us</a></li>
+          <li><a href="/newsletter/">Newsletter</a></li>
+          <li><a href="/designdriven/">Podcast</a></li>
+          <li><a href="https://loopsbook.com">Book</a></li>
+        </ul>
+      </div>
+      <div class="info-group">
+        <h6>Offices</h6>
+        <p><strong>Atlanta</strong><br />1040 W. Marietta Street NW<br />Atlanta, GA 30318</p>
+        <p><strong>New York</strong><br />222 Broadway, 19th Floor<br />New York, NY 10038</p>
+        <p><strong>Amsterdam</strong><br />Weteringschans 165 C<br />1017 XD Amsterdam</p>
+      </div>
+    </div>
+  </div>
+  <div class="subfooter">
+    <p>&copy; Novelaboratori, LLC unless otherwise noted // <a href="">Privacy Policy</a></p>
+    <div class="social-stack">
+      <a href="https://www.twitter.com/ninelabs" class="fa-stack icon-twitter" target="_blank"><span class="sr-only">Twitter</span><i class="fab fa-twitter mono fa-stack-1x fa-inverse"></i></a>
+      <a href="https://www.linkedin.com/company/nine-labs/" class="fa-stack icon-linkedin" target="_blank"><span class="sr-only">Linkedin</span><i class="fab fa-linkedin mono fa-stack-1x fa-inverse"></i></a>
+      <a href="https://www.instagram.com/ninelabs" class="fa-stack icon-instagram" target="_blank"><span class="sr-only">Instagram</span><i class="fab fa-instagram mono fa-stack-1x fa-inverse"></i></a>
+    </div>
+  </div>
+</footer>
+
+<div class="language-html highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nt">&lt;footer&gt;</span>
+  <span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">"container"</span><span class="nt">&gt;</span>
+    <span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">"row"</span><span class="nt">&gt;</span>
+      <span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">"info-group"</span><span class="nt">&gt;</span>
+        <span class="nt">&lt;h6&gt;</span>Services<span class="nt">&lt;/h6&gt;</span>
+        <span class="nt">&lt;ul&gt;</span>
+          <span class="nt">&lt;li&gt;&lt;a</span> <span class="na">href=</span><span class="s">"/services/#business-innovation"</span><span class="nt">&gt;</span>Business Innovation<span class="nt">&lt;/a&gt;&lt;/li&gt;</span>
+          <span class="nt">&lt;li&gt;&lt;a</span> <span class="na">href=</span><span class="s">"/services/#product-strategy"</span><span class="nt">&gt;</span>Product Strategy<span class="nt">&lt;/a&gt;&lt;/li&gt;</span>
+          <span class="nt">&lt;li&gt;&lt;a</span> <span class="na">href=</span><span class="s">"/services/#customer-insights"</span><span class="nt">&gt;</span>Customer Insights<span class="nt">&lt;/a&gt;&lt;/li&gt;</span>
+          <span class="nt">&lt;li&gt;&lt;a</span> <span class="na">href=</span><span class="s">"/services/#user-experience-design"</span><span class="nt">&gt;</span>User Experience Design<span class="nt">&lt;/a&gt;&lt;/li&gt;</span>
+          <span class="nt">&lt;li&gt;&lt;a</span> <span class="na">href=</span><span class="s">"/services/#product-prototyping"</span><span class="nt">&gt;</span>Product Prototyping<span class="nt">&lt;/a&gt;&lt;/li&gt;</span>
+          <span class="nt">&lt;li&gt;&lt;a</span> <span class="na">href=</span><span class="s">"/services/#user-interface-design"</span><span class="nt">&gt;</span>User Interface Design<span class="nt">&lt;/a&gt;&lt;/li&gt;</span>
+          <span class="nt">&lt;li&gt;&lt;a</span> <span class="na">href=</span><span class="s">"/services/#design-systems"</span><span class="nt">&gt;</span>Design Systems<span class="nt">&lt;/a&gt;&lt;/li&gt;</span>
+        <span class="nt">&lt;/ul&gt;</span>
+      <span class="nt">&lt;/div&gt;</span>
+      <span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">"info-group"</span><span class="nt">&gt;</span>
+        <span class="nt">&lt;h6&gt;</span>Outcomes<span class="nt">&lt;/h6&gt;</span>
+        <span class="nt">&lt;ul&gt;</span>
+          <span class="nt">&lt;li&gt;&lt;a</span> <span class="na">href=</span><span class="s">"/outcomes/#revenue"</span><span class="nt">&gt;</span>Increased Revenue<span class="nt">&lt;/a&gt;&lt;/li&gt;</span>
+          <span class="nt">&lt;li&gt;&lt;a</span> <span class="na">href=</span><span class="s">"/outcomes/#savings"</span><span class="nt">&gt;</span>Reduced Costs<span class="nt">&lt;/a&gt;&lt;/li&gt;</span>
+          <span class="nt">&lt;li&gt;&lt;a</span> <span class="na">href=</span><span class="s">"/outcomes/#satisfaction"</span><span class="nt">&gt;</span>Increased Satisfaction<span class="nt">&lt;/a&gt;&lt;/li&gt;</span>
+          <span class="nt">&lt;li&gt;&lt;a</span> <span class="na">href=</span><span class="s">"/outcomes/#process"</span><span class="nt">&gt;</span>Improved Processes<span class="nt">&lt;/a&gt;&lt;/li&gt;</span>
+          <span class="nt">&lt;li&gt;&lt;a</span> <span class="na">href=</span><span class="s">"/outcomes/#usability"</span><span class="nt">&gt;</span>Improved Usability<span class="nt">&lt;/a&gt;&lt;/li&gt;</span>
+        <span class="nt">&lt;/ul&gt;</span>
+      <span class="nt">&lt;/div&gt;</span>
+      <span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">"info-group"</span><span class="nt">&gt;</span>
+        <span class="nt">&lt;h6&gt;</span>Company<span class="nt">&lt;/h6&gt;</span>
+        <span class="nt">&lt;ul&gt;</span>
+          <span class="nt">&lt;li&gt;&lt;a</span> <span class="na">href=</span><span class="s">"/insights/"</span><span class="nt">&gt;</span>Latest Insights<span class="nt">&lt;/a&gt;&lt;/li&gt;</span>
+          <span class="nt">&lt;li&gt;&lt;a</span> <span class="na">href=</span><span class="s">"/process/"</span><span class="nt">&gt;</span>Our Process<span class="nt">&lt;/a&gt;&lt;/li&gt;</span>
+          <span class="nt">&lt;li&gt;&lt;a</span> <span class="na">href=</span><span class="s">"/about/"</span><span class="nt">&gt;</span>About Us<span class="nt">&lt;/a&gt;&lt;/li&gt;</span>
+          <span class="nt">&lt;li&gt;&lt;a</span> <span class="na">href=</span><span class="s">"/newsletter/"</span><span class="nt">&gt;</span>Newsletter<span class="nt">&lt;/a&gt;&lt;/li&gt;</span>
+          <span class="nt">&lt;li&gt;&lt;a</span> <span class="na">href=</span><span class="s">"/designdriven/"</span><span class="nt">&gt;</span>Podcast<span class="nt">&lt;/a&gt;&lt;/li&gt;</span>
+          <span class="nt">&lt;li&gt;&lt;a</span> <span class="na">href=</span><span class="s">"https://loopsbook.com"</span><span class="nt">&gt;</span>Book<span class="nt">&lt;/a&gt;&lt;/li&gt;</span>
+        <span class="nt">&lt;/ul&gt;</span>
+      <span class="nt">&lt;/div&gt;</span>
+      <span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">"info-group"</span><span class="nt">&gt;</span>
+        <span class="nt">&lt;h6&gt;</span>Offices<span class="nt">&lt;/h6&gt;</span>
+        <span class="nt">&lt;p&gt;&lt;strong&gt;</span>Atlanta<span class="nt">&lt;/strong&gt;&lt;br&gt;</span>1040 W. Marietta Street NW<span class="nt">&lt;br&gt;</span>Atlanta, GA 30318<span class="nt">&lt;/p&gt;</span>
+        <span class="nt">&lt;p&gt;&lt;strong&gt;</span>New York<span class="nt">&lt;/strong&gt;&lt;br&gt;</span>222 Broadway, 19th Floor<span class="nt">&lt;br&gt;</span>New York, NY 10038<span class="nt">&lt;/p&gt;</span>
+        <span class="nt">&lt;p&gt;&lt;strong&gt;</span>Amsterdam<span class="nt">&lt;/strong&gt;&lt;br&gt;</span>Weteringschans 165 C<span class="nt">&lt;br&gt;</span>1017 XD Amsterdam<span class="nt">&lt;/p&gt;</span>
+      <span class="nt">&lt;/div&gt;</span>
+    <span class="nt">&lt;/div&gt;</span>
+  <span class="nt">&lt;/div&gt;</span>
+  <span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">"subfooter"</span><span class="nt">&gt;</span>
+    <span class="nt">&lt;p&gt;</span><span class="ni">&amp;copy;</span> Novelaboratori, LLC unless otherwise noted // <span class="nt">&lt;a</span> <span class="na">href=</span><span class="s">""</span><span class="nt">&gt;</span>Privacy Policy<span class="nt">&lt;/a&gt;&lt;/p&gt;</span>
+    <span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">"social-stack"</span><span class="nt">&gt;</span>
+      <span class="nt">&lt;a</span> <span class="na">href=</span><span class="s">"https://www.twitter.com/ninelabs"</span> <span class="na">class=</span><span class="s">"fa-stack icon-twitter"</span> <span class="na">target=</span><span class="s">"_blank"</span><span class="nt">&gt;&lt;span</span> <span class="na">class=</span><span class="s">"sr-only"</span><span class="nt">&gt;</span>Twitter<span class="nt">&lt;/span&gt;&lt;i</span> <span class="na">class=</span><span class="s">"fab fa-twitter mono fa-stack-1x fa-inverse"</span><span class="nt">&gt;&lt;/i&gt;&lt;/a&gt;</span>
+      <span class="nt">&lt;a</span> <span class="na">href=</span><span class="s">"https://www.linkedin.com/company/nine-labs/"</span> <span class="na">class=</span><span class="s">"fa-stack icon-linkedin"</span> <span class="na">target=</span><span class="s">"_blank"</span><span class="nt">&gt;&lt;span</span> <span class="na">class=</span><span class="s">"sr-only"</span><span class="nt">&gt;</span>Linkedin<span class="nt">&lt;/span&gt;&lt;i</span> <span class="na">class=</span><span class="s">"fab fa-linkedin mono fa-stack-1x fa-inverse"</span><span class="nt">&gt;&lt;/i&gt;&lt;/a&gt;</span>
+      <span class="nt">&lt;a</span> <span class="na">href=</span><span class="s">"https://www.instagram.com/ninelabs"</span> <span class="na">class=</span><span class="s">"fa-stack icon-instagram"</span> <span class="na">target=</span><span class="s">"_blank"</span><span class="nt">&gt;&lt;span</span> <span class="na">class=</span><span class="s">"sr-only"</span><span class="nt">&gt;</span>Instagram<span class="nt">&lt;/span&gt;&lt;i</span> <span class="na">class=</span><span class="s">"fab fa-instagram mono fa-stack-1x fa-inverse"</span><span class="nt">&gt;&lt;/i&gt;&lt;/a&gt;</span>
+    <span class="nt">&lt;/div&gt;</span>
+  <span class="nt">&lt;/div&gt;</span>
+<span class="nt">&lt;/footer&gt;</span>
+
+</code></pre></div></div>
+
+      </div>
+      <div class="docs-subnav">
+       <ul>
+  <li><a href="#global-header">Global Header</a></li>
+  <li><a href="#global-footer">Global Footer</a></li>
+</ul>
+
+      </div>
+    </div>
+  </div>
+
+  <footer class="bg-gray-20">
+    <div class="container">
+      <div class="row mt-5">
+        <div class="col text-center text-gray-60">
+          <p>&copy; Novelaboratori, LLC // <a href="https://github.com/ninelabs/designsystem">Github</a></p>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+
+</body>
+</html>

@@ -6,7 +6,7 @@
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <script src="https://kit.fontawesome.com/8c3f464d84.js" crossorigin="anonymous"></script>
   <link rel="stylesheet" href="/assets/docs.css">
-  <title> - Nine Labs Design System</title>
+  <title>Mastheads // Components - Nine Labs Design System</title>
 </head>
 
 <body class="nl-docs">
@@ -42,16 +42,51 @@
   <div class="container my-5">
     <div class="row">
       <div class="docs-content">
-        <div class="container">
-  <h1>404</h1>
+        <h1 id="mastheads">Mastheads</h1>
 
-  <p><strong>Page not found :(</strong></p>
-  <p>The requested page could not be found.</p>
+<p>A Masthead is a full-width component used at the top of first-level pages. It includes a <code class="highlighter-rouge">H1</code> level Heading, a paragraph of text, and an optional Call-to-Action button.</p>
+
+<h2 id="default-masthead">Default Masthead</h2>
+
+<p>The default Masthead includes a background image which is set using an inline <code class="highlighter-rouge">style="background-image:url(...)"</code> declaration.</p>
+
+<div class="masthead-image" style="background-image:url(/assets/img/travel-user-experience-design.jpg)">
+  <div class="container">
+    <div class="row">
+      <div class="col">
+        <div class="masthead-content">
+          <div class="highlight-bar"></div>
+          <h1>Delivering Business Outcomes that Matter</h1>
+          <p>Are your teams delivering web and mobile experiences that delight your customers and maximize business value? Get the best thinking from startups and enterprises to give your projects the support they need to succeed.</p>
+          <a href="...">Find Out How</a>
+        </div>
+      </div>
+    </div>
+  </div>
 </div>
+
+<div class="language-html highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">"masthead-image"</span> <span class="na">style=</span><span class="s">"background-image:url(/assets/img/travel-user-experience-design.jpg)"</span><span class="nt">&gt;</span>
+  <span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">"container"</span><span class="nt">&gt;</span>
+    <span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">"row"</span><span class="nt">&gt;</span>
+      <span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">"col"</span><span class="nt">&gt;</span>
+        <span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">"masthead-content"</span><span class="nt">&gt;</span>
+          <span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">"highlight-bar"</span><span class="nt">&gt;&lt;/div&gt;</span>
+          <span class="nt">&lt;h1&gt;</span>Delivering Business Outcomes that Matter<span class="nt">&lt;/h1&gt;</span>
+          <span class="nt">&lt;p&gt;</span>Are your teams delivering web and mobile experiences that delight your customers and maximize business value? Get the best thinking from startups and enterprises to give your projects the support they need to succeed.<span class="nt">&lt;/p&gt;</span>
+          <span class="nt">&lt;a</span> <span class="na">href=</span><span class="s">"..."</span><span class="nt">&gt;</span>Find Out How<span class="nt">&lt;/a&gt;</span>
+        <span class="nt">&lt;/div&gt;</span>
+      <span class="nt">&lt;/div&gt;</span>
+    <span class="nt">&lt;/div&gt;</span>
+  <span class="nt">&lt;/div&gt;</span>
+<span class="nt">&lt;/div&gt;</span>
+
+</code></pre></div></div>
 
       </div>
       <div class="docs-subnav">
-       
+       <ul>
+  <li><a href="#default-masthead">Default Masthead</a></li>
+</ul>
 
       </div>
     </div>

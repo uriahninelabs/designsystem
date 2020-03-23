@@ -1,20 +1,16 @@
 ---
 layout: docs
-title: Components
+title: Buttons // Components
 ---
 
-# Components
 
-There are several components used in the Nine Labs website.
-
-----
-## Buttons
+# Buttons
 
 The `.btn` classes are designed to be used with the `<button>` element. However, you can also use these classes on `<a>` or `<input>` elements (though some browsers may apply a slightly different rendering).
 
 When using button classes on `<a>` elements that are used to trigger in-page functionality (like collapsing content), rather than linking to new pages or sections within the current page, these links should be given a `role="button"` to appropriately convey their purpose to assistive technologies such as screen readers. See [Bootstrap&rsquo;s Button Docs](https://getbootstrap.com/docs/4.4/components/buttons/) for more info.
 
-### Button tags
+## Button Elements
 <a class="btn btn-primary" href="#" role="button">Link</a>
 <button class="btn btn-primary" type="submit">Button</button>
 <input class="btn btn-primary" type="button" value="Input">
@@ -30,7 +26,7 @@ When using button classes on `<a>` elements that are used to trigger in-page fun
 ```
 
 
-### Default Buttons
+## Default Buttons
 <button type="button" class="btn btn-primary">Primary</button>
 <button type="button" class="btn btn-secondary">Secondary</button>
 <button type="button" class="btn btn-tertiary">Tertiary</button>
@@ -55,7 +51,7 @@ When using button classes on `<a>` elements that are used to trigger in-page fun
 <button type="button" class="btn btn-link">Link</button>
 ```
 
-### Outline Buttons
+## Outline Buttons
 
 <button type="button" class="btn btn-outline-primary">Primary</button>
 <button type="button" class="btn btn-outline-secondary">Secondary</button>
@@ -77,64 +73,4 @@ When using button classes on `<a>` elements that are used to trigger in-page fun
 <button type="button" class="btn btn-outline-info">Info</button>
 <button type="button" class="btn btn-outline-light">Light</button>
 <button type="button" class="btn btn-outline-dark">Dark</button>
-```
-
-----
-
-## The Masthead
-
-The Masthead is a full-width component used at the top of first-level pages. It includes a `H1` level Heading, a paragraph of text, and an optional Call-to-Action button.
-
-{% include _component-masthead.html %}
-
-```html
-{% include _component-masthead.html %}
-```
-
-----
-
-## The Client Bar
-
-{% include _component-client-bar.html %}
-
-```html
-{% include _component-client-bar.html %}
-```
-----
-
-## Testimonial
-
-{% include _component-testimonial.html %}
-
-```html
-{% include _component-testimonial.html %}
-```
-----
-
-## Topic Containers
-
-This component is meant to be used to provide an overview of a service area or outcome. The text should be limited to about 90 words in no more than three paragraphs. When multiple Topic Containers are used together on a page you should alternate between the default `.topic-container` and `.topic-container-right` so the images will alternate between the left and right side.
-
-### Image Left
-{% include _component-topic-container.html %}
-
-```html
-{% include _component-topic-container.html %}
-```
-
-### Image Right
-{% include _component-topic-container-right.html %}
-
-```html
-{% include _component-topic-container-right.html %}
-```
-
-----
-
-## Global Footer
-
-{% include _component-footer.html %}
-
-```html
-{% include _component-footer.html %}
 ```

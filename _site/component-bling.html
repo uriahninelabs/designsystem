@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <script src="https://kit.fontawesome.com/8c3f464d84.js" crossorigin="anonymous"></script>
+  <link rel="stylesheet" href="/assets/docs.css">
+  <title>Gilding // Components - Nine Labs Design System</title>
+</head>
+
+<body class="nl-docs">
+
+  <header>
+    <nav class="navbar navbar-expand-lg navbar-light">
+      <div class="container">
+        <a class="navbar-brand" href="/"><img src="/assets/img/ninelabs-logo-pink.png" height="36px"></a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav mr-auto">
+            <li class="nav-item"><a href="/brand.html" class="nav-link">Brand</a></li>
+            <li class="nav-item"><a href="/colors.html" class="nav-link">Colors</a></li>
+            <li class="nav-item"><a href="/typography.html" class="nav-link">Typography</a></li>
+            <li class="nav-item dropdown"><a href="#" class="nav-link dropdown-toggle" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Components</a>
+              <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                <a class="dropdown-item" href="component-template.html">Header &amp; Footer</a>
+                <a class="dropdown-item" href="component-masthead.html">Mastheads</a>
+                <a class="dropdown-item" href="component-content.html">Content Sections</a>
+                <a class="dropdown-item" href="component-buttons.html">Buttons</a>
+                <a class="dropdown-item" href="component-bling.html">Bling</a>
+              </div>
+            </li>
+            <li class="nav-item"><a href="/examples.html" class="nav-link">Examples</a></li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+  </header>
+
+  <div class="container my-5">
+    <div class="row">
+      <div class="docs-content">
+        <h1 id="bling">Bling</h1>
+
+<p>These components are used to provide additional content that helps the viewer understand the value of what we do. Things like client logos and testimonials aren’t essential to describing what we do, but they make us look better. You know… bling!</p>
+
+<hr />
+
+<h2 id="the-client-bar">The Client Bar</h2>
+
+<div class="client-bar">
+  <div class="row">
+    <div class="col">
+      <h6>Serving World-Class Organizations Like</h6>
+      <hr />
+      <img src="/assets/img/logos/delta-150.png" alt="Delta Air Lines" />
+      <img src="/assets/img/logos/ihg-150.png" alt="Intercontinental Hotel Group" />
+      <img src="/assets/img/logos/ups-150.png" alt="UPS Digital" />
+      <img src="/assets/img/logos/circlek-150.png" alt="Circle K" />
+      <img src="/assets/img/logos/state-of-georgia-150.png" alt="State of Georgia" />
+      <img src="/assets/img/logos/pirelli-150.png" alt="Pirelli Motorsports" />
+      <img src="/assets/img/logos/coca-cola-150.png" alt="Coca-Cola Digital" />
+      <hr />
+    </div>
+  </div>
+</div>
+
+<div class="language-html highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">"client-bar"</span><span class="nt">&gt;</span>
+  <span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">"row"</span><span class="nt">&gt;</span>
+    <span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">"col"</span><span class="nt">&gt;</span>
+      <span class="nt">&lt;h6&gt;</span>Serving World-Class Organizations Like<span class="nt">&lt;/h6&gt;</span>
+      <span class="nt">&lt;hr</span> <span class="nt">/&gt;</span>
+      <span class="nt">&lt;img</span> <span class="na">src=</span><span class="s">"/assets/img/logos/delta-150.png"</span> <span class="na">alt=</span><span class="s">"Delta Air Lines"</span> <span class="nt">/&gt;</span>
+      <span class="nt">&lt;img</span> <span class="na">src=</span><span class="s">"/assets/img/logos/ihg-150.png"</span> <span class="na">alt=</span><span class="s">"Intercontinental Hotel Group"</span> <span class="nt">/&gt;</span>
+      <span class="nt">&lt;img</span> <span class="na">src=</span><span class="s">"/assets/img/logos/ups-150.png"</span> <span class="na">alt=</span><span class="s">"UPS Digital"</span> <span class="nt">/&gt;</span>
+      <span class="nt">&lt;img</span> <span class="na">src=</span><span class="s">"/assets/img/logos/circlek-150.png"</span> <span class="na">alt=</span><span class="s">"Circle K"</span> <span class="nt">/&gt;</span>
+      <span class="nt">&lt;img</span> <span class="na">src=</span><span class="s">"/assets/img/logos/state-of-georgia-150.png"</span> <span class="na">alt=</span><span class="s">"State of Georgia"</span> <span class="nt">/&gt;</span>
+      <span class="nt">&lt;img</span> <span class="na">src=</span><span class="s">"/assets/img/logos/pirelli-150.png"</span> <span class="na">alt=</span><span class="s">"Pirelli Motorsports"</span> <span class="nt">/&gt;</span>
+      <span class="nt">&lt;img</span> <span class="na">src=</span><span class="s">"/assets/img/logos/coca-cola-150.png"</span> <span class="na">alt=</span><span class="s">"Coca-Cola Digital"</span> <span class="nt">/&gt;</span>
+      <span class="nt">&lt;hr</span> <span class="nt">/&gt;</span>
+    <span class="nt">&lt;/div&gt;</span>
+  <span class="nt">&lt;/div&gt;</span>
+<span class="nt">&lt;/div&gt;</span>
+
+</code></pre></div></div>
+<hr />
+
+<h2 id="testimonial">Testimonial</h2>
+
+<div class="testimonial">
+  <blockquote>
+    <p>The value they bring to a project is immeasurable. They&rsquo;re always focused on asking the right question, digging into the core of the problem, and coming up with excellent strategic solutions.</p>
+    <cite class="align-right">Matt Malament - Director, Global Category Strategy at InterContinental Hotels Group</cite>
+  </blockquote>
+</div>
+
+<div class="language-html highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">"testimonial"</span><span class="nt">&gt;</span>
+  <span class="nt">&lt;blockquote&gt;</span>
+    <span class="nt">&lt;p&gt;</span>The value they bring to a project is immeasurable. They<span class="ni">&amp;rsquo;</span>re always focused on asking the right question, digging into the core of the problem, and coming up with excellent strategic solutions.<span class="nt">&lt;/p&gt;</span>
+    <span class="nt">&lt;cite</span> <span class="na">class=</span><span class="s">"align-right"</span><span class="nt">&gt;</span>Matt Malament - Director, Global Category Strategy at InterContinental Hotels Group<span class="nt">&lt;/cite&gt;</span>
+  <span class="nt">&lt;/blockquote&gt;</span>
+<span class="nt">&lt;/div&gt;</span>
+
+</code></pre></div></div>
+<hr />
+
+      </div>
+      <div class="docs-subnav">
+       <ul>
+  <li><a href="#the-client-bar">The Client Bar</a></li>
+  <li><a href="#testimonial">Testimonial</a></li>
+</ul>
+
+      </div>
+    </div>
+  </div>
+
+  <footer class="bg-gray-20">
+    <div class="container">
+      <div class="row mt-5">
+        <div class="col text-center text-gray-60">
+          <p>&copy; Novelaboratori, LLC // <a href="https://github.com/ninelabs/designsystem">Github</a></p>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+
+</body>
+</html>
