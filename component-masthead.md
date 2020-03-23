@@ -16,3 +16,16 @@ The default Masthead includes a background image which is set using an inline `s
 ```html
 {% include _component-masthead-image.html %}
 ```
+
+----
+
+## Article Masthead
+
+For blog articles and whitepapers.
+
+
+{% include _component-masthead-article.html %}
+
+```html
+{% include _component-masthead-article.html %}
+```
