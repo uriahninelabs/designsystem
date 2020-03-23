@@ -18,6 +18,7 @@
 
     @include media-breakpoint-up(lg) {
       padding: 5rem;
+      padding-right: 0;
     }
   }
   .related-actions a {
@@ -29,6 +30,12 @@
 }
 
 .topic-container-right {
+  @include media-breakpoint-up(lg) {
+    .topic-content {
+      padding: 5rem;
+      padding-left: 0;
+    }
+  }
   @include media-breakpoint-up(md) {
     .row {
       flex-direction: row-reverse;
