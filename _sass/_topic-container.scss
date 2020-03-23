@@ -1,4 +1,4 @@
-.topic-container {
+.topic-container, .topic-container-right {
   @extend .container;
   @extend .my-5;
 
@@ -15,7 +15,7 @@
   .topic-content {
     padding-top: 2.5rem;
     padding-bottom: 2.5rem;
-    
+
     @include media-breakpoint-up(lg) {
       padding: 5rem;
     }
@@ -26,10 +26,12 @@
     @extend .btn-outline-primary;
     margin-bottom: .25rem;
   }
+}
 
+.topic-container-right {
   @include media-breakpoint-up(md) {
-    &:nth-child(2n) .row {
-        flex-direction: row-reverse;
+    .row {
+      flex-direction: row-reverse;
     }
   }
 }
