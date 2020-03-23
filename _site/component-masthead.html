@@ -44,11 +44,11 @@
       <div class="docs-content">
         <h1 id="mastheads">Mastheads</h1>
 
-<p>A Masthead is a full-width component used at the top of first-level pages. It includes a <code class="highlighter-rouge">H1</code> level Heading, a paragraph of text, and an optional Call-to-Action button.</p>
+<p>A Masthead is a full-width component used at the top of first-level pages.</p>
 
-<h2 id="default-masthead">Default Masthead</h2>
+<h2 id="image-masthead">Image Masthead</h2>
 
-<p>The default Masthead includes a background image which is set using an inline <code class="highlighter-rouge">style="background-image:url(...)"</code> declaration.</p>
+<p>The Image Masthead includes a background image which is set using an inline <code class="highlighter-rouge">style="background-image:url(...)"</code> declaration. It includes a <code class="highlighter-rouge">H1</code> level Heading, a paragraph of text, and an optional Call-to-Action button.</p>
 
 <div class="masthead-image" style="background-image:url(/assets/img/travel-user-experience-design.jpg)">
   <div class="container">
@@ -84,15 +84,89 @@
 
 <hr />
 
+<h2 id="default-masthead">Default Masthead</h2>
+
+<p>The default Masthead includes a <code class="highlighter-rouge">H1</code> level Heading, a paragraph of text, and an optional Call-to-Action button.</p>
+
+<div class="masthead">
+  <div class="container">
+    <div class="row">
+      <div class="col">
+        <div class="masthead-content">
+          <div class="highlight-bar"></div>
+          <h1>Delivering Business Outcomes that Matter</h1>
+          <p>Are your teams delivering web and mobile experiences that delight your customers and maximize business value? Get the best thinking from startups and enterprises to give your projects the support they need to succeed.</p>
+          <a href="...">Find Out How</a>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="language-html highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">"masthead"</span><span class="nt">&gt;</span>
+  <span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">"container"</span><span class="nt">&gt;</span>
+    <span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">"row"</span><span class="nt">&gt;</span>
+      <span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">"col"</span><span class="nt">&gt;</span>
+        <span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">"masthead-content"</span><span class="nt">&gt;</span>
+          <span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">"highlight-bar"</span><span class="nt">&gt;&lt;/div&gt;</span>
+          <span class="nt">&lt;h1&gt;</span>Delivering Business Outcomes that Matter<span class="nt">&lt;/h1&gt;</span>
+          <span class="nt">&lt;p&gt;</span>Are your teams delivering web and mobile experiences that delight your customers and maximize business value? Get the best thinking from startups and enterprises to give your projects the support they need to succeed.<span class="nt">&lt;/p&gt;</span>
+          <span class="nt">&lt;a</span> <span class="na">href=</span><span class="s">"..."</span><span class="nt">&gt;</span>Find Out How<span class="nt">&lt;/a&gt;</span>
+        <span class="nt">&lt;/div&gt;</span>
+      <span class="nt">&lt;/div&gt;</span>
+    <span class="nt">&lt;/div&gt;</span>
+  <span class="nt">&lt;/div&gt;</span>
+<span class="nt">&lt;/div&gt;</span>
+
+</code></pre></div></div>
+
+<hr />
+
+<h2 id="simple-masthead">Simple Masthead</h2>
+
+<p>The default Masthead includes a <code class="highlighter-rouge">H1</code> level Heading and a paragraph of text, but does not have any call-to-action.</p>
+
+<div class="masthead">
+  <div class="container">
+    <div class="row">
+      <div class="col">
+        <div class="masthead-content">
+          <div class="highlight-bar"></div>
+          <h1>Delivering Business Outcomes that Matter</h1>
+          <p>Are your teams delivering web and mobile experiences that delight your customers and maximize business value? Get the best thinking from startups and enterprises to give your projects the support they need to succeed.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="language-html highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">"masthead"</span><span class="nt">&gt;</span>
+  <span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">"container"</span><span class="nt">&gt;</span>
+    <span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">"row"</span><span class="nt">&gt;</span>
+      <span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">"col"</span><span class="nt">&gt;</span>
+        <span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">"masthead-content"</span><span class="nt">&gt;</span>
+          <span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">"highlight-bar"</span><span class="nt">&gt;&lt;/div&gt;</span>
+          <span class="nt">&lt;h1&gt;</span>Delivering Business Outcomes that Matter<span class="nt">&lt;/h1&gt;</span>
+          <span class="nt">&lt;p&gt;</span>Are your teams delivering web and mobile experiences that delight your customers and maximize business value? Get the best thinking from startups and enterprises to give your projects the support they need to succeed.<span class="nt">&lt;/p&gt;</span>
+        <span class="nt">&lt;/div&gt;</span>
+      <span class="nt">&lt;/div&gt;</span>
+    <span class="nt">&lt;/div&gt;</span>
+  <span class="nt">&lt;/div&gt;</span>
+<span class="nt">&lt;/div&gt;</span>
+
+</code></pre></div></div>
+
+<hr />
+
 <h2 id="article-masthead">Article Masthead</h2>
 
-<p>For blog articles and whitepapers.</p>
+<p>For blog articles and white-papers. You’ll see it is very similar to the simple masthead, but replaces the paragraph of text with information about the article or white-paper.</p>
 
 <div class="masthead-article">
   <div class="row">
     <div class="col">
       <div class="highlight-bar"></div>
-      <h1>What Makes a Healthy Design Team Healthy?</h1>
+      <h1>What Makes a Healthy Design Team?</h1>
       <p class="pub-info">September 30, 2019 // 7 min read</p>
     </div>
   </div>
@@ -102,7 +176,7 @@
   <span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">"row"</span><span class="nt">&gt;</span>
     <span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">"col"</span><span class="nt">&gt;</span>
       <span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">"highlight-bar"</span><span class="nt">&gt;&lt;/div&gt;</span>
-      <span class="nt">&lt;h1&gt;</span>What Makes a Healthy Design Team Healthy?<span class="nt">&lt;/h1&gt;</span>
+      <span class="nt">&lt;h1&gt;</span>What Makes a Healthy Design Team?<span class="nt">&lt;/h1&gt;</span>
       <span class="nt">&lt;p</span> <span class="na">class=</span><span class="s">"pub-info"</span><span class="nt">&gt;</span>September 30, 2019 // 7 min read<span class="nt">&lt;/p&gt;</span>
     <span class="nt">&lt;/div&gt;</span>
   <span class="nt">&lt;/div&gt;</span>
@@ -113,7 +187,9 @@
       </div>
       <div class="docs-subnav">
        <ul>
+  <li><a href="#image-masthead">Image Masthead</a></li>
   <li><a href="#default-masthead">Default Masthead</a></li>
+  <li><a href="#simple-masthead">Simple Masthead</a></li>
   <li><a href="#article-masthead">Article Masthead</a></li>
 </ul>
 
