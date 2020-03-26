@@ -3,7 +3,7 @@ layout: docs
 title: The Nine Labs Design System
 ---
 
-# Guacamole
+# 🥑Guacamole
 
 <h4>The Nine Labs Design System</h4>
 
