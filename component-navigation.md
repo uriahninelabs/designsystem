@@ -18,7 +18,6 @@ The Global Header is based on the [Bootstrap Navbar]() contains the logo, links 
 {% include _component-header.html %}
 ```
 
-
 ----
 
 ## Global Footer
@@ -30,4 +29,15 @@ The Global Footer is a four column spread containing links to all the major page
 
 ```html
 {% include _component-footer.html %}
+```
+
+
+## Pagination
+
+This component extends the default [Bootstrap Pagination Component](https://getbootstrap.com/docs/4.4/components/pagination/) and adds the Nine Labs style.
+
+{% include _component-pagination.html %}
+
+```html
+{% include _component-pagination.html %}
 ```
