@@ -7,6 +7,20 @@ title: Mastheads // Components
 
 A Masthead is a full-width component used at the top of first-level pages.
 
+## Home Page Masthead
+
+This Masthead should only be used on the Home Page or landing pages where you need to have a smaller pre-headline leading into the main headline.
+
+It only contains the `h6` pre-headline, the `h1` main headline, and a background image which is set using an inline `style="background-image:url(...)"` declaration. It *does not include* a paragraph or call-to-action.
+
+{% include _component-masthead-home.html %}
+
+```html
+{% include _component-masthead-home.html %}
+```
+
+
+
 ## Image Masthead
 
 The Image Masthead includes a background image which is set using an inline `style="background-image:url(...)"` declaration. It includes a `H1` level Heading, a paragraph of text, and an optional Call-to-Action button.
