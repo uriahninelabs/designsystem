@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <script src="https://kit.fontawesome.com/8c3f464d84.js" crossorigin="anonymous"></script>
+  <link rel="stylesheet" href="/assets/docs.css">
+  <title>Forms - Nine Labs Design System</title>
+</head>
+
+<body class="nl-docs">
+
+  <header>
+    <nav class="navbar navbar-expand-lg navbar-light">
+      <div class="container">
+        <a class="navbar-brand" href="/"><svg width="36px" height="36px" viewBox="0 0 400 400" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+          <g id="Solo-Mark" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd"><g id="Group" transform="translate(57.000000, 53.000000)" fill="#F280B1">
+          <rect id="Rectangle" x="180" y="20" width="93" height="255" rx="46.5"></rect><rect id="Rectangle" x="21" y="20" width="93" height="255" rx="46.5"></rect>
+          <path d="M147.026465,-12.3715371 L147.813375,-12.3749548 C173.409938,-12.4861266 194.250175,8.1738651 194.361347,33.7704282 C194.362167,33.9593115 194.361833,34.1481982 194.360344,34.3370775 L192.575638,260.729002 C192.379041,285.667505 172.543735,306.010376 147.618158,306.836899 L145.977005,306.891319 C121.358285,307.707666 100.739088,288.41203 99.9227409,263.793309 C99.9046158,263.246708 99.896546,262.699819 99.8985357,262.152921 L100.728731,33.9588533 C100.821635,8.4225974 121.490281,-12.2606275 147.026465,-12.3715371 Z" id="Rectangle" style="mix-blend-mode: multiply;" transform="translate(147.130012, 147.270447) rotate(-45.000000) translate(-147.130012, -147.270447) "></path>
+        </g></g></svg></a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav mr-auto">
+            <li class="nav-item"><a href="/brand.html" class="nav-link">Brand</a></li>
+            <li class="nav-item"><a href="/colors.html" class="nav-link">Colors</a></li>
+            <li class="nav-item"><a href="/typography.html" class="nav-link">Typography</a></li>
+            <li class="nav-item dropdown"><a href="#" class="nav-link dropdown-toggle" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Components</a>
+              <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                <a class="dropdown-item" href="component-navigation.html">Navigation</a>
+                <a class="dropdown-item" href="component-masthead.html">Mastheads</a>
+                <a class="dropdown-item" href="component-content.html">Content Sections</a>
+                <a class="dropdown-item" href="component-buttons.html">Buttons</a>
+                <a class="dropdown-item" href="component-bling.html">Bling</a>
+              </div>
+            </li>
+            <li class="nav-item"><a href="/examples.html" class="nav-link">Examples</a></li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+  </header>
+
+  <div class="container my-5">
+    <div class="row">
+      <div class="docs-content">
+        <style type="text/css">
+.form-group {
+  font-family: "Fira Sans", helvetica, arial, sans-serif !important;
+  font-weight: 400;
+}
+.form-group label {
+  font-weight: 600;
+}
+
+</style>
+
+<h1 id="forms">Forms</h1>
+
+<p>Everything here is build on top of <a href="https://getbootstrap.com/docs/4.4/components/forms/">Bootstrap’s Forms</a>.</p>
+
+<hr />
+
+<h2 id="lead-capture-form">Lead Capture Form</h2>
+
+<form action="..." method="post">
+  <div class="form-row">
+    <div class="col">
+      <div class="form-group">
+        <label for="first_name">First Name</label>
+        <input type="text" id="first_name" class="form-control" placeholder="Abe" />
+      </div>
+    </div>
+    <div class="col">
+      <div class="form-group">
+        <label for="first_name">Last Name</label>
+        <input type="text" id="last_name" class="form-control" placeholder="Froman" />
+      </div>
+    </div>
+  </div>
+  <div class="form-row">
+    <div class="col">
+      <div class="form-group">
+        <label for="first_name">Company Name</label>
+        <input type="text" class="form-control" placeholder="Company Name" />
+      </div>
+    </div>
+    <div class="col">
+      <div class="form-group">
+        <label for="first_name">Phone Number</label>
+        <input type="text" class="form-control" placeholder="404-867-5309" />
+      </div>
+    </div>
+  </div>
+  <div class="form-row">
+    <div class="col">
+      <div class="form-group">
+        <label for="first_name">What's keeping you up at night?</label>
+        <textarea id="message" class="form-control" rows="4"></textarea>
+      </div>
+    </div>
+  </div>
+  <button type="submit" class="btn btn-primary">Send My Message</button>
+</form>
+
+      </div>
+      <div class="docs-subnav">
+       <ul>
+  <li><a href="#lead-capture-form">Lead Capture Form</a></li>
+</ul>
+
+      </div>
+    </div>
+  </div>
+
+  <footer class="bg-gray-20">
+    <div class="container">
+      <div class="row mt-5">
+        <div class="col text-center text-gray-60">
+          <p>&copy; Novelaboratori, LLC // <a href="https://github.com/ninelabs/designsystem">Github</a></p>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+
+</body>
+</html>
