@@ -8,7 +8,7 @@ title: Content Sections // Components
 
 ## Article Summary
 
-Intended to be used on the Blog Archive page.
+Article Summaries extend the [Bootstrap Card Component](https://getbootstrap.com/docs/4.4/components/card/) and are intended to be used whenever you want to provide a brief preview of an article (e.g. the Home Page, the Blog Archive, etc.)
 
 {% include _component-blog-article-preview.html %}
 

@@ -7,13 +7,16 @@
 .article-preview {
   @extend .mb-5;
 
-  h6 {
+  .card-title {
+    margin-bottom: 0;
     font-style: normal;
     font-weight: 800;
     font-size: 27px;
+    line-height: 1.1em;
     color: $gray-90;
   }
-  p {
+
+  p.card-text {
     color: $gray-90;
   }
 
@@ -105,6 +108,7 @@
 
 .pub-info {
   display: block;
+  margin-bottom: 1.2em;
   font-size: .85rem;
   color: $gray-50;
 }
