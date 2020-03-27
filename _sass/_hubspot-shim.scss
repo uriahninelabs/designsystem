@@ -1,0 +1,19 @@
+/**
+ * Overrides default HubSpot form styles.
+ */
+
+.hs-button {
+  @extend .btn;
+
+  &.primary {
+    @extend .btn-primary;
+  }
+  &.large {
+    @extend .btn-lg;
+  }
+
+}
+
+.hs-input {
+  @extend .form-control;
+}
