@@ -1,3 +1,13 @@
+.form-group {
+  font-family: $font-family-headings;
+  font-weight: 600;
+  color: $gray-80;
+}
+.form-group label {
+  font-weight: 600;
+}
+
+
 /**
  * Overrides default HubSpot form styles.
  */
@@ -23,9 +33,7 @@
 }
 
 .hs-form-field label span {
-  font-family: $font-family-headings;
-  font-weight: 600;
-  color: $gray-70;
+  @extend .form-group;
 }
 .hs-form-required {
   padding-left: .25rem;
