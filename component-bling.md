@@ -1,6 +1,6 @@
 ---
 layout: docs
-title: Gilding // Components
+title: Bling // Components
 ---
 
 # Bling
