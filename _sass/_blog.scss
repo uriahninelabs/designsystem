@@ -119,10 +119,6 @@
 }
 
 .sidebar {
-  @extend .col-sm-12;
-  @extend .col-md-3;
-  @extend .offset-md-1;
-  @extend .mt-5;
 
   .book-callout {
     p {
@@ -151,7 +147,7 @@
     label {
       @extend .sr-only;
     }
-    input[type=text] {
+    input[type=text],input[type=search] {
       @extend .form-control;
       @extend .form-control-sm;
       @extend .mr-sm-2;
