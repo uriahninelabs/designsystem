@@ -2,34 +2,17 @@
  * Overrides default HubSpot form styles.
  */
 
-.hs-button {
-  @extend .btn;
+ .header-container.container-fluid,
+ .body-container.container-fluid,
+ .footer-container.container-fluid{
+     padding: 0;
+ }
 
-  &.primary {
-    @extend .btn-primary;
-  }
-  &.large {
-    @extend .btn-lg;
-  }
+ .container-fluid:before,
+ .container-fluid:after {
+     display: none;
+ }
 
-}
-
-.hs-input {
-  @extend .form-control;
-}
-
-.hs-form-field, .hs-submit {
-  @extend .form-group;
-}
-
-.hs-form-field label span {
-  font-family: $font-family-headings;
-  font-weight: 600;
-  color: $gray-70;
-}
-.hs-form-required {
-  padding-left: .25rem;
-  font-size: .85rem;
-  color: $pink;
-
-}
+ .row-fluid [class*="span"] {
+     min-height: 0;
+ }
