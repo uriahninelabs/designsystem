@@ -79,6 +79,7 @@
 .article-image {
   @extend .mb-5;
   @extend .img-fluid;
+  @extend .rounded;
 }
 
 .article-topics {
@@ -87,10 +88,11 @@
 
 }
 .article-newsletter-block {
-  @extend .mt-5;
+  @extend .my-5;
   @extend .p-3;
   @extend .bg-gray-5;
   border-left: 3px solid $purple;
+
   p {
     font-size: .9rem;
   }
