@@ -42,7 +42,6 @@
 }
 
 .masthead-article {
-  @extend .container;
   @extend .mt-5;
 
   h1 {
@@ -54,8 +53,6 @@
 }
 
 .article-content {
-  @extend .col-sm-12;
-  @extend .col-md-8;
 
   .article-text {
     a {
