@@ -25,3 +25,13 @@
     border: none;
   }
 }
+
+.client-logos {
+  @extend .row;
+  @extend .my-5;
+
+  img {
+    @extend .img-fluid;
+    max-width: 90px;
+  }
+}
