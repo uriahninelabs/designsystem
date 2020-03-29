@@ -67,6 +67,10 @@
       font-size: .75rem;
       color: $pink;
     }
+    img {
+      @extend .img-fluid;
+      @extend .my-2;
+    }
   }
 }
 
