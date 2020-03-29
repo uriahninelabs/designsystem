@@ -3,7 +3,8 @@
 .nl-docs {
 
   .docs-content {
-    @extend .col-9;
+    @extend .col-sm-12;
+    @extend .col-md-9;
     &>hr {
       margin-top: 5rem;
       border: 0;
@@ -11,8 +12,8 @@
     }
   }
   .docs-subnav {
+    @extend .col-sm-12;
     @extend .col-3;
-    @extend .sticky-top;
   }
 
   .color-demo {

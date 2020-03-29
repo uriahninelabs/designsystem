@@ -31,6 +31,32 @@ Headings use <a href="https://fonts.google.com/specimen/Fira+Sans">Fira Sans</a>
 ```
 ----
 
+### Typical Page Heading
+
+<div class="container">
+  <div class="row">
+    <div class="col my-5">
+      <div class="highlight-bar"></div>
+      <h1>This is the headline</h1>
+      <p>This is an optional line of text that compliments the heading.</p>
+    </div>
+  </div>
+</div>
+
+```html
+<div class="container">
+  <div class="row">
+    <div class="col my-5">
+      <div class="highlight-bar"></div>
+      <h1>This is the headline</h1>
+      <p>This is an optional line of text that compliments the heading.</p>
+    </div>
+  </div>
+</div>
+```
+
+
+
 ### The Highlight Bar
 
 When headings `h1`, `h2`, or `h3` are used at the top of a page or the beginning of a new section of content you should include the Highlight Bar above the `hx` element. The bar automatically resizes to 18% of the heading's container width, with a minimum width of 90px.
