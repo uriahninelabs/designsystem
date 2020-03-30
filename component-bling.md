@@ -29,8 +29,6 @@ These components are used to provide additional content that helps the viewer un
 
 ----
 
-----
-
 ## Client Logo Wall
 
 {% include _component-client-logo-wall.html %}

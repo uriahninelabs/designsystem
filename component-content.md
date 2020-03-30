@@ -16,6 +16,7 @@ Article Summaries extend the [Bootstrap Card Component](https://getbootstrap.com
 {% include _component-blog-article-preview.html %}
 ```
 
+----
 
 ## Topic Containers
 

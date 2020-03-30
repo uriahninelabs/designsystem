@@ -31,6 +31,7 @@ The Global Footer is a four column spread containing links to all the major page
 {% include _component-footer.html %}
 ```
 
+----
 
 ## Pagination
 

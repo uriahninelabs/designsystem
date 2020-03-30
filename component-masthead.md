@@ -19,7 +19,7 @@ It only contains the `h6` pre-headline, the `h1` main headline, and a background
 {% include _component-masthead-home.html %}
 ```
 
-
+----
 
 ## Image Masthead
 
