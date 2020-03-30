@@ -25,7 +25,7 @@ Hex: `#3fc6c9` Sass: `$teal` Classes: `.text-teal` `.bg-teal`
 Hex: `#fecd44` Sass: `$yellow` Classes: `.text-yellow` `.bg-yellow`
 <div class="color-demo bg-yellow"></div>
 
-
+----
 
 ## Secondary Colors
 
@@ -61,6 +61,7 @@ Hex: `#05aaaa` Sass: `$teal-dark` Classes: `.text-teal-dark` `.bg-teal-dark`
 Hex: `#f9b303` Sass: `$yellow-dark` Classes: `.text-yellow-dark` `.bg-yellow-dark`
 <div class="color-demo bg-yellow-dark"></div>
 
+----
 
 ## Grayscale
 
