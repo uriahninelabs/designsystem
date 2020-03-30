@@ -5,15 +5,22 @@
   .docs-content {
     @extend .col-sm-12;
     @extend .col-md-9;
+
     &>hr {
-      margin-top: 5rem;
+      margin: 2.5rem 0;
       border: 0;
       border-top: 1px solid $gray-20;
     }
   }
   .docs-subnav {
     @extend .col-sm-12;
-    @extend .col-3;
+    @extend .col-md-3;
+
+    @include media-breakpoint-down(sm) {
+      margin-top: 3rem;
+      padding-top: 2rem;
+      border-top: 1px solid $pink;
+    }
   }
 
   .color-demo {

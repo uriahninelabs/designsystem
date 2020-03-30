@@ -55,7 +55,7 @@ Headings use <a href="https://fonts.google.com/specimen/Fira+Sans">Fira Sans</a>
 </div>
 ```
 
-
+----
 
 ### The Highlight Bar
 
