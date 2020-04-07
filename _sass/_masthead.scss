@@ -50,12 +50,16 @@ h1 {
 
 .pre-text {
   color: $pink;
+  font-size: 1rem;
+  @include media-breakpoint-up(md) {
+    font-size: 2rem !important;
+  }
 }
+
+
 
 .masthead-image.home-page {
   background-position: top center;
 
-  .pre-text {
-    font-size: 2rem;
-  }
+
 }
