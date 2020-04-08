@@ -41,6 +41,9 @@
   font-size: .75rem;
   font-weight: 300;
 }
+.hs-input.invalid, .hs-input.error {
+  border-color: #d00;
+}
 .hs-error-msgs {
   list-style-type: none;
   margin-left: 0;
