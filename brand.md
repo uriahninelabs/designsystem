@@ -23,6 +23,31 @@ The vertical lockup should be used in Word, Pages, and PDF documents. The horizo
 
 ![N with Text](/assets/img/brand-logo-text-vertical.svg "N with Text"){: height="200px" } ![N with Text](/assets/img/brand-logo-text.svg "N with Text"){: width="300px"}
 
+
+## Proper Spacing
+
+The required space surrounding the logo mark is equal to the height of the right ascender of the "N".
+
+![Spacing Example](/assets/img/Logo_space_1.png)
+
+### Examples
+
+<div class="row">
+  <div class="col">
+    <strong>Solo N</strong>
+    <img src="/assets/img/Logo_space_4.png" class="img-fluid" alt="Logo Spacing Example" />
+  </div>
+  <div class="col">
+    <strong>Vertical Mark</strong>
+    <img src="/assets/img/Logo_space_2.png" class="img-fluid" alt="Logo Spacing Example" />
+  </div>
+  <div class="col">
+    <strong>Horizontal Mark</strong>
+    <img src="/assets/img/Logo_space_3.png" class="img-fluid" alt="Logo Spacing Example" />
+  </div>
+</div>
+
+
 ----
 
 ## Unacceptable Usage
@@ -38,6 +63,10 @@ Only the logos provided within this document are approved for use.
 1. Using them without a box
 1. Changing the font
 
+### Distortion
+
 ![Horizontal Distortion](/assets/img/brand-logo-distortion-horizontal.svg "Horizontal Distortion")
 
 ![Vertical Distortion](/assets/img/brand-logo-distortion.svg "Vertical Distortion")
+
+<img src="/assets/img/Logo_nono.png" class="img-fluid my-3" alt="Logo Spacing Example" />

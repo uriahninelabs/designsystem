@@ -7,6 +7,8 @@ title: Color
 
 Approved colors for use in Nine Labs digital and printed products.
 
+To make quick use of these colors in Sketch, you can download the [Global Palette](/assets/Nine-Labs-Brand.sketchpalette), which uses the [Sketch Palettes Plugin](https://github.com/andrewfiorillo/sketch-palettes).
+
 ## Primary Colors
 
 ### Pink
