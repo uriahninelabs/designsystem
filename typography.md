@@ -90,3 +90,47 @@ Every day is taco ipsum tuesday. Carne asada on corn tortillas. Give me all the 
 - Nachos
 - Chips &amp; Salsa
 - Guacamole!
+
+----
+## Service Details List
+
+This is a special list for Service Detail pages which uses Definition Lists to display information about our services.
+
+<dl class="service-details">
+  <dt>Cost:</dt><dd>$2,700</dd>
+  <dt>Payment Terms:</dt><dd>Prepaid with a credit card before the sessions begin.</dd>
+  <dt>Location:</dt><dd>Sessions can be held remotely from anywhere in the world.</dd>
+  <dt>Duration:</dt><dd>From start to finish, expect this to take at least 1 week, subject to availability of your team.</dd>
+  <dt>Scheduling:</dt><dd>We can usually begin within a few business days.</dd>
+  <dt>Participation:</dt><dd>Critical leaders and decision makers from your team must participate in the video conferences.</dd>
+  <dt>Deliverables:</dt><dd>Across the video conference calls and several emails you will get:
+    <ul>
+      <li>Industry leading guidance through the entire process</li>
+      <li>Clear and concise recommendations for your note taking</li>
+      <li><strong>Target Market Map</strong> in a high-resolution PDF</li>
+      <li><strong>Value Proposition Map</strong> in a high-resolution PDF</li>
+      <li><strong>Video recordings</strong> of all the work sessions</li>
+    </ul>
+  </dd>
+</dl>
+
+
+```html
+<dl class="service-details">
+  <dt>Cost:</dt><dd>$2,700</dd>
+  <dt>Payment Terms:</dt><dd>Prepaid with a credit card before the sessions begin.</dd>
+  <dt>Location:</dt><dd>Sessions can be held remotely from anywhere in the world.</dd>
+  <dt>Duration:</dt><dd>From start to finish, expect this to take at least 1 week, subject to availability of your team.</dd>
+  <dt>Scheduling:</dt><dd>We can usually begin within a few business days.</dd>
+  <dt>Participation:</dt><dd>Critical leaders and decision makers from your team must participate in the video conferences.</dd>
+  <dt>Deliverables:</dt><dd>Across the video conference calls and several emails you will get:
+    <ul>
+      <li>Industry leading guidance through the entire process</li>
+      <li>Clear and concise recommendations for your note taking</li>
+      <li><strong>Target Market Map</strong> in a high-resolution PDF</li>
+      <li><strong>Value Proposition Map</strong> in a high-resolution PDF</li>
+      <li><strong>Video recordings</strong> of all the work sessions</li>
+    </ul>
+  </dd>
+</dl>
+```
