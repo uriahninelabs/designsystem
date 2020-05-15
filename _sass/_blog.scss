@@ -1,5 +1,5 @@
 
-.article-list, .article-content {
+.article-list, .article-content, .insights-content-embed {
   @extend .col-sm-12;
   @extend .col-md-11;
 }
@@ -52,7 +52,20 @@
   }
 }
 
+.insights-content-embed {
+  padding-left: 0;
+  padding-right: 0;
+  margin-bottom: 2rem;
+
+  &.embed-podcast {
+    padding-bottom: 2rem;
+    border-bottom: 1px solid $pink;
+  }
+}
+
 .article-content {
+  padding-left: 0;
+  padding-right: 0;
 
   .article-text {
     a {
