@@ -23,8 +23,9 @@
       </button>
       <div class="collapse navbar-collapse" id="navbarSupportedContent">
         <ul class="navbar-nav mr-auto">
-          <li class="nav-item dropdown"><a href="/services/" class="nav-link dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false"><span>Services</span></a>
-            <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+          <li class="nav-item dropdown"><a href="/services/" id="serviceMenu" class="nav-link dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false"><span>Services</span></a>
+            <div class="dropdown-menu" aria-labelledby="serviceMenu">
+              <a class="dropdown-item d-lg-none" href="/services/">All Services</a>
               <a class="dropdown-item" href="#">Target Market Definition</a>
               <a class="dropdown-item" href="#">Value Proposition Definition</a>
               <a class="dropdown-item" href="#">Product Positioning</a>
@@ -178,35 +179,25 @@
   <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
   <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
   <script type="text/javascript">
-    $('li.dropdown').on('click', function() {
-      var $el = $(this);
-      if ($el.hasClass('open')) {
-          var $a = $el.children('a.dropdown-toggle');
-          if ($a.length && $a.attr('href')) {
-              location.href = $a.attr('href');
-          }
-      }
-    });
-    
     const $dropdown = $(".dropdown");
     const $dropdownToggle = $(".dropdown-toggle");
     const $dropdownMenu = $(".dropdown-menu");
     const showClass = "show";
 
     $(window).on("load resize", function() {
-      if (this.matchMedia("(min-width: 768px)").matches) {
+      if (this.matchMedia("(min-width: 992px)").matches) {
         $dropdown.hover(
           function() {
             const $this = $(this);
             $this.addClass(showClass);
-            $this.find(".nav-link").addClass("hovered");
+            $this.find(".nav-link").addClass("hovered").removeAttr("data-toggle");
             $this.find($dropdownToggle).attr("aria-expanded", "true");
             $this.find($dropdownMenu).addClass(showClass);
           },
           function() {
             const $this = $(this);
             $this.removeClass(showClass);
-            $this.find(".nav-link").removeClass("hovered");
+            $this.find(".nav-link").removeClass("hovered").attr("data-toggle","dropdown");
             $this.find($dropdownToggle).attr("aria-expanded", "false");
             $this.find($dropdownMenu).removeClass(showClass);
           }
