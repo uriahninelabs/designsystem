@@ -11,11 +11,21 @@
       </button>
       <div class="collapse navbar-collapse" id="navbarSupportedContent">
         <ul class="navbar-nav mr-auto">
-          <li class="nav-item"><a href="/services/" class="nav-link{% if page.url == "/demo/services.html" %} active{% endif %}">Services</a></li>
-          <li class="nav-item"><a href="/process/" class="nav-link">Process</a></li>
-          <li class="nav-item"><a href="/outcomes/" class="nav-link">Outcomes</a></li>
-          <li class="nav-item"><a href="/insights/" class="nav-link{% if page.url == "/demo/blog.html" %} active{% endif %}">Insights</a></li>
-          <li class="nav-item"><a href="/clients/" class="nav-link">About You</a></li>
+          <li class="nav-item dropdown"><a href="/services/" id="serviceMenu" class="nav-link dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false"><span>Services</span></a>
+            <div class="dropdown-menu" aria-labelledby="serviceMenu">
+              <a class="dropdown-item d-lg-none" href="/services/">All Services</a>
+              <a class="dropdown-item" href="#">Target Market Definition</a>
+              <a class="dropdown-item" href="#">Value Proposition Definition</a>
+              <a class="dropdown-item" href="#">Product Positioning</a>
+              <a class="dropdown-item" href="#">User Journey Workshop</a>
+              <a class="dropdown-item" href="#">UI Prototyping and Design</a>
+              <a class="dropdown-item" href="#">Design Systems</a>
+            </div>
+          </li>
+          <li class="nav-item"><a href="/process/" class="nav-link active"><span>Process</span></a></li>
+          <li class="nav-item"><a href="/outcomes/" class="nav-link"><span>Outcomes</span></a></li>
+          <li class="nav-item"><a href="/insights/" class="nav-link"><span>Insights</span></a></li>
+          <li class="nav-item"><a href="/clients/" class="nav-link"><span>About You</span></a></li>
         </ul>
         <a href="/connect/" class="btn btn-sm btn-primary" type="button">Let&rsquo;s Talk</a>
       </div>
