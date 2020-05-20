@@ -108,7 +108,7 @@ Hex: `#f0f0f0` Sass: `$gray-10` Classes: `.text-gray-10` `.bg-gray-10`
 <div class="color-demo bg-gray-10"></div>
 
 ### Gray 5%
-Hex: `#fafafa` Sass: `$gray-5"` Classes: `.text-gray-5"` `.bg-gray-5"`
+Hex: `#fafafa` Sass: `$gray-5` Classes: `.text-gray-5` `.bg-gray-5`
 <div class="color-demo bg-gray-5"></div>
 
 ### White
