@@ -1,7 +1,19 @@
 header {
+
+  .navbar-brand .brand-tagline {
+    @extend .align-middle;
+    display: inline-block;
+    margin-top:3px;
+    width: 185px;
+    white-space: normal;
+    font-family: $font-family-headings;
+    font-size: .85rem;
+    font-weight: 600;
+    line-height: .95rem;
+    color: $gray-70;
+  }
+
   ul.navbar-nav li.nav-item {
-    // margin-left: .5rem;
-    // margin-right: .5rem;
 
     a.nav-link {
       padding-left: 1rem;
