@@ -70,10 +70,11 @@
     width: 70%;
     margin: 0 auto;
 
-    fieldset.form-columns-1 {
+    fieldset {
       max-width: 100% !important;
 
-      div.input input {
+      &.form-columns-1 div.input input,
+      &.form-columns-1 div.input textarea {
         width: 100% !important;
       }
     }
