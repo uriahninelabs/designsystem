@@ -58,3 +58,36 @@
     font-size: .75rem !important;
     color: #999 !important;
 }
+
+.insights-contact-form {
+  margin-top: 5rem;
+  margin-bottom: 5rem;
+  padding: 2rem;
+  background-color: $gray-10;
+  border-top: 3px solid $pink;
+
+  form {
+    width: 70%;
+    margin: 0 auto;
+
+    fieldset.form-columns-1 {
+      max-width: 100% !important;
+
+      div.input input {
+        width: 100% !important;
+      }
+    }
+  }
+}
+
+@include media-breakpoint-down(sm) {
+  .insights-contact-form
+  {
+    margin-left:-15px;
+    margin-right:-15px;
+
+    form {
+      width:100%;
+    }
+  }
+}
