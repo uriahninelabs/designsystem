@@ -17,6 +17,11 @@ ul.inputs-list {
   list-style-type: none;
 }
 
+input[type="file"] {
+  border: none;
+}
+
+
 .hs-button {
   @extend .btn;
 
