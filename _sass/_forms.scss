@@ -12,6 +12,11 @@
  * Overrides default HubSpot form styles.
  */
 
+ul.inputs-list {
+  padding-left: none;
+  list-style-type: none;
+}
+
 .hs-button {
   @extend .btn;
 
