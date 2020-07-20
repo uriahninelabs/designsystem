@@ -56,3 +56,34 @@ a {
     color: $pink-dark;
   }
 }
+
+blockquote {
+  display: block;
+  margin: 2rem auto;
+  text-align: center;
+  q {
+    display: block;
+    margin-bottom: 1rem;
+    font-size: 1.25rem;
+    font-style: italic;
+    color: $pink-dark;
+    quotes: "“" "”" "‘" "’";
+  }
+  q::before {
+    content: open-quote;
+  }
+  q::after {
+    content: close-quote;
+  }
+  cite {
+    display: block;
+    font-size: .9rem;
+    color: $gray-70;
+  }
+  cite::before {
+    content: "\2014 \000A0";
+  }
+  cite::after {
+    content: "\000A0 \2014";
+  }
+}
