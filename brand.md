@@ -12,6 +12,7 @@ The Nine Labs logo has two colors: [Primary Pink](../colors.html) and [Dark Pink
 ----
 
 ##### The Solo "N"
+This is our primary mark is used in most situations. 
 
 ![Solo N](/assets/img/brand-logo-solo.svg "Solo N")
 
