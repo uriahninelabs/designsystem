@@ -196,6 +196,29 @@
   }
 }
 
+.webinar-registration-mask {
+  width: 100%;
+  max-width: 750px;
+  height: auto;
+  margin: 0 0 3rem;
+  padding-top: 56.25%;
+  position: relative;
+  @extend .rounded;
+  p {
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    left: 35%;
+    color: #fff;
+    transform: translate(-25%,-50%);
+    font-size: 2rem;
+    font-weight: 700;
+    @include media-breakpoint-down(md) {
+      font-size:1.5rem;
+    }
+  }
+}
+
 
 .sidebar-subscribe {
   margin-bottom: 5rem;
