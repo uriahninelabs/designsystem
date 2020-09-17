@@ -75,11 +75,6 @@
       @extend .mb-4;
       font-size: 1.5rem;
     }
-    &::after {
-      content: "\02588";
-      font-size: .75rem;
-      color: $pink;
-    }
     img {
       @extend .img-fluid;
       @extend .my-2;
