@@ -13,6 +13,24 @@ Before you write for Nine Labs, it’s important to think about our readers. Whi
 - Confident yet playful.
 - Professional yet casual.
 
+#### We Are:
+
+- curious
+- contemplative
+- helpful
+- passionate
+- fair
+- architects and engineers, not plumbers and carpenters
+
+#### We Are Not (words we would never use):
+
+- reserved
+- selfish
+- "we make websites"
+- developers (we don't write code)
+- out to make a buck
+
+
 **Ask yourself:**
 - What am I trying to say?
 - What words will express it to someone who isn't technical?
