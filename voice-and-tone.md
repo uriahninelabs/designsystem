@@ -31,16 +31,16 @@ Before you write for Nine Labs, it’s important to think about our readers. Whi
 - out to make a buck
 
 
+### Guidelines for Writing
+
+Whether it's an email to a client or an article to be published on our website, we want our writing to be clear and consistent.
+
 **Ask yourself:**
 - What am I trying to say?
 - What words will express it to someone who isn't technical?
 - What image or idiom will make it clearer?
 - Is this image or idiom fresh (recent and relevant) enough to have the desired effect?
 
-
-### Guidelines for Writing
-
-Whether it's an email to a client or an article to be published on our website, we want our writing to be clear and consistent.
 
 We generally subscribe to the [Chicago Manual of Style](https://www.chicagomanualofstyle.org/home.html) and [Orwell's Rules](https://www.writingclasses.com/toolbox/tips-masters/george-orwell-6-questions-6-rules) for all our content, and have added a few of our own to further guide you in your writing.
 
@@ -57,8 +57,10 @@ We generally subscribe to the [Chicago Manual of Style](https://www.chicagomanua
 #### Keep it Simple
 Avoid using industry or project specific acronyms wherever possible. It might feel like extra words to spell things out, but it's necessary. The people who know the acronyms will glide right past the full phrase, while the people who don't will get stuck on the acronym and it will impair their ability to follow along.
 
+Contractions, idioms, slang, and pop-culture references are totally okay &mdash; so long as doing so is consistent with our voice and  won't distract from making the point. _We're all cool with saying "y'all" if it helps get the message across. Ya dig?_
+
 #### The Oxford Comma
-Commas save lives. The Oxford Comma is the difference between having a breakfast of eggs, toast, and orange juice - and a breakfast of eggs, toast and orange juice.
+Commas save lives. Consider: "Let's eat, Grandma!" vs "Let's eat Grandma!". The Oxford Comma is the difference between having a breakfast of eggs, toast, and orange juice - and a breakfast of eggs, toast and orange juice. You get the point.
 
 ### Formatting
 
