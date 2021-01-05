@@ -77,7 +77,7 @@ Paragraphs should be as short as possible and easy to scan in the page. Typicall
 
 We always use Smart Quotes in our writing.
 
-- "This isn't right"
+- &quot;This isn&apos;t right&quot;
 - &ldquo;That&rsquo;s better!&rdquo;
 
 See [smartquotesforsmartpeople.com](https://smartquotesforsmartpeople.com/) for more info.
