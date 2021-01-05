@@ -73,6 +73,15 @@ Headings should be less than 12 words, and should always be in Title Case.
 #### Paragraphs
 Paragraphs should be as short as possible and easy to scan in the page. Typically each paragraph should be between 30 and 100 words.
 
+#### Quotes
+
+We always use Smart Quotes in our writing.
+
+- "This isn't right"
+- &ldquo;That&rsquo;s better!&rdquo;
+
+See [smartquotesforsmartpeople.com](https://smartquotesforsmartpeople.com/) for more info.
+
 
 #### Dates and Times
 All dates and times are written using the following formats:
