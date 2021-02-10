@@ -3,9 +3,9 @@ layout: docs
 title: The Nine Labs Design System
 ---
 
-# 🥑Guacamole
 
-<h4>The Nine Labs Design System</h4>
+
+# Nine Labs Design System
 
 Brand and style guidelines for building Nine Labs digital products.
 
