@@ -82,6 +82,20 @@ All other text is set in <a href="https://fonts.google.com/specimen/Merriweather
 
 Every day is taco ipsum tuesday. Carne asada on corn tortillas. Give me all the tacos, immediately. Flour or corn tortillas? Shrimp tacos are tasty tacos! BARBACOA!! It’s a wonderful morning for breakfast tacos. Can you put some peppers and onions on that? Josh’s taco shack is the best taco shack. CARNE ASADA!! Um, Tabasco? No thanks, do you have any Cholula? How bout a gosh darn quesadilla? It’s taco Tuesday Monday. Josh’s taco shack is the best taco shack. Does guac cost extra? Pico de gallo, on the side please
 
+----
+### Quotes
+
+We use “smart” (curly) quotes, instead of "dumb" (straight) quotes. “Smart” quotes improve readability by making it obvious where the quote begins and ends - "dumb" quotes do not. Be smart with ‘single’ and “double” quotes.
+
+**Avoid**
+
+- 'single'
+- "double"
+
+**Use**
+
+- ‘single’
+- “double”
 
 ----
 ### Blockquote
