@@ -20,11 +20,11 @@ This is our primary mark, and is used in most situations.
 
 ### Secondary Logos
 <div class="row">
-<div class="col text-center">
+<div class="col">
 <img src="/assets/img/nine-labs-brand-logo-color.svg" alt="Nine Labs Brand Logo" width="270" />
 <p>For applications on white or light colored backgrounds where color can be used.</p>
 </div>
-<div class="col text-center">
+<div class="col">
 <img src="/assets/img/nine-labs-brand-logo-black.svg" alt="Nine Labs Brand Logo" width="270" />
 <p>For applications on white backgrounds where only black and white can be used.</p>
 </div>
@@ -32,15 +32,15 @@ This is our primary mark, and is used in most situations.
 
 ### The Solo N
 <div class="row">
-<div class="col-4 text-center">
+<div class="col">
 <img src="/assets/img/nine-labs-solo-n-pink.svg" alt="Nine Labs Brand Logo" width="270" />
 <p><small>For applications on white or light colored backgrounds where color can be used.</small></p>
 </div>
-<div class="col-4 text-center">
+<div class="col">
 <img src="/assets/img/nine-labs-solo-n-color.svg" alt="Nine Labs Brand Logo" width="270" />
 <p><small>For applications on white backgrounds where only black and white can be used.</small></p>
 </div>
-<div class="col-4 text-center">
+<div class="col">
 <img src="/assets/img/nine-labs-solo-n-black.svg" alt="Nine Labs Brand Logo" width="270" />
 <p><small>For applications on white backgrounds where only black and white can be used.</small></p>
 </div>
