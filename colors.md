@@ -25,6 +25,7 @@ Class name examples: text color (`.text-pink`), background color (`.bg-pink`)
       <small>
       Hex: <code>{{ shade.Hex }}</code> <br>
       RGB: <code>{{ shade.RGB }}</code> <br>
+      HSL: <code>{{ shade.HSL }}</code> <br>
       Pantone: <code>{{ shade.Pantone }}</code> <br>
       Sass: <code>${{ shade.Sass }}</code> <br>
       </small>
