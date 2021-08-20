@@ -16,6 +16,7 @@ Here are a few examples of fully built pages for different content types.
 - [Article](/demo/article.html)
 - [Podcast](/demo/podcast.html)
 - [Webinar](/demo/webinar.html)
+- [Case Studies Detail](/demo/case-studies-detail.html)
 
 ## Google Docs
 
